@@ -21,7 +21,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        int[] nums = {4, 3, 4, 2, 3, 6git, 2}; // Input array
+        int[] nums = {4, 3, 4, 2, 3, 6, 2}; // Input array
         Solution sol = new Solution();
         int result = sol.findFirstUnique(nums); // Function call
         System.out.println("First unique element: " + result);
