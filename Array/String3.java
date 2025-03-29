@@ -3,6 +3,7 @@ public class String3 {
         StringBuffer sb = new StringBuffer("Hello");
         sb.append(" World");
         System.out.println(sb);
+        System.out.println("Sohail");
     
 
 }
