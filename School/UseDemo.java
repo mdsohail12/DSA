@@ -15,6 +15,8 @@ public class UseDemo {
         // d3.b=30;
         // System.out.println(d.b+","+d2.b+","+d3.b);//why this red color occure becouse we are storing the 
         // the static var from normal way thats whgy this occure rull stattic var ko class ke name se access kiya jata jata h ok dekho aage 
+        // jab ye byte ko banata h tab ye chup chap replace kar det aclass ke name se ok
+        
         Demo.b=10;
         Demo.b=20;
         Demo.b=30;
