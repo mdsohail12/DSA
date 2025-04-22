@@ -16,6 +16,4 @@ public class Employe {
     public void ShowNextId(){
         System.out.println("Id of next employe is "+nextId);
     }
-
-    
 }
