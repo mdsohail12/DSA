@@ -44,6 +44,7 @@ public class BinarySearch {
        int result=obj.search(arr,target);
        System.out.println("the index of"+result);
         sc.close();
+        System.out.println("i have achieve both accending order and decending order");
     }
 //  
 
