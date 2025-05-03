@@ -45,6 +45,7 @@ public class BinarySearch {
        System.out.println("the index of"+result);
         sc.close();
         System.out.println("i have achieve both accending order and decending order");
+        System.out.println("i have achieve both accending order and decending order and both can solve the question ");
     }
 //  
 
