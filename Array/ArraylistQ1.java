@@ -10,6 +10,7 @@ public class ArraylistQ1 {
         countries.add("Russia");
         countries.add("Columbia");
         Scanner sc=new Scanner(System.in);
+        sc.close();
         for(int i=0;i<4;i++){
             System.out.println("enter country name to search");
             String input=sc.nextLine();
