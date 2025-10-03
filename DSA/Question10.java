@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Quetion10 {
+public class Question10 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         // int number=sc.nextInt();
@@ -165,7 +165,12 @@ public class Quetion10 {
             //     System.out.println(n + " x " + i + " = " + (n * i));
             // }
 
-            
+            String str1=sc.nextLine();//used for taking whole sentences after spaces this method also takes the spaces as input
+            String str=sc.next();//used for taking only one word it avoided words after spaces
+            // char ch=str.charAt(0);
+            System.out.println(str1);
+            System.out.println(str);
+
 
 
             
