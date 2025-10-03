@@ -166,6 +166,7 @@ public class Sohail {
 //    int n1=a/10;cls
 
 //   System.out.println(n1);
+
 //        System.out.println("Enter a number");
 //        int a= kb.nextInt();
 //        if(a>0){
