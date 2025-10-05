@@ -76,21 +76,34 @@ public class Question11 {
 // }
 // System.out.println(sum);
 
-System.out.println("plz enter your name");
-String str=sc.nextLine();
-for(int i=str.length()-1;i>=0;i--){
-    char ch=str.charAt(i);
-    System.out.print(ch);
+// System.out.println("plz enter your name/number");
+// int n=sc.nextInt();
+// // int digit=0;
+// for(;n>0;n=n/10){
+//    int digit=n%10;
+// System.out.print(digit);
+// }
+// int n=123;
+// while(n>0){
+//     int digit=n%10;
+//     System.err.print(digit);
+//     n/=10;
+// }
+// String str=sc.nextLine();
+// for(int i=str.length()-1;i>=0;i--){
+//     char ch=str.charAt(i);
+//     System.out.print(ch);
+// }
+
+for(int i=1;i<=4;i++){
+    for(int j=1;j<=i;j++){
+        System.out.print("*");
+    }
+    System.out.println();
 }
-
-
 
      sc.close();
 }
-
-
-        
-
     }
             
             
