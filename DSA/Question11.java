@@ -1,5 +1,6 @@
 // import java.util.Scanner;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Question11 {
@@ -138,13 +139,29 @@ public class Question11 {
     //  System.out.println("Final sum: " + sum);
 
     // ist one is that 
-    int []arr=arr=new int [5];
-    arr[0]=20;
-    arr[1]=30;
-    System.out.println(arr[0]);
-    System.out.println(arr[1]);
-    arr[5]=50;
-    System.out.println(arr[5]);//this will give the eror
+    // int []arr=arr=new int [5];
+    // arr[0]=20;
+    // arr[1]=30;
+    // System.out.println(arr[0]);
+    // System.out.println(arr[1]);
+    // arr[5]=50;
+    // System.out.println(arr[5]);//this will give the eror
+System.out.println("Enter array size");
+int n=sc.nextInt();
+    int []arr=new int [n];
+    int sum=0;
+    for(int i=0;i<n;i++){
+        arr[i]=sc.nextInt();
+    }
+    for(int i=0;i<n;i++){
+       sum=sum+arr[i];
+    }
+        System.out.println(Arrays.toString(arr));
+        System.out.println(sum);
+        System.out.println("Avg is"+(double)sum/n);
+
+        // System.out.println(Arrays.toString(arr));
+
     
 
 
