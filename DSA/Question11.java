@@ -114,17 +114,29 @@ public class Question11 {
     // System.out.println("hiii");
 
     // check prime number
-    int count=0;
-    int n=sc.nextInt();
-    for(int i=1;i<=n;i++){
-        if(n%i==0){
-            count++;
+    // int count=0;
+    // int n=sc.nextInt();
+    // for(int i=1;i<=n;i++){
+    //     if(n%i==0){
+    //         count++;
+    //     }
+    // }
+    // if(count==2){
+    //     System.out.println("no.is prime");
+    // }
+    // else System.out.println("not prim");
+    int sum=0;
+    for(;;){
+         System.out.print("Enter a number (0 to stop): ");
+        int input=sc.nextInt();
+        if(input==0){
+            break;
         }
+        sum=sum+input;
+          System.out.println("Current sum: " + sum);
     }
-    if(count==2){
-        System.out.println("no.is prime");
-    }
-    else System.out.println("not prime");
+     System.out.println("Final sum: " + sum);
+
 
 }
     }
