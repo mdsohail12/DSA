@@ -125,17 +125,27 @@ public class Question11 {
     //     System.out.println("no.is prime");
     // }
     // else System.out.println("not prim");
-    int sum=0;
-    for(;;){
-         System.out.print("Enter a number (0 to stop): ");
-        int input=sc.nextInt();
-        if(input==0){
-            break;
-        }
-        sum=sum+input;
-          System.out.println("Current sum: " + sum);
-    }
-     System.out.println("Final sum: " + sum);
+    // int sum=0;
+    // for(;;){
+    //      System.out.print("Enter a number (0 to stop): ");
+    //     int input=sc.nextInt();
+    //     if(input==0){
+    //         break;
+    //     }
+    //     sum=sum+input;
+    //       System.out.println("Current sum: " + sum);
+    // }
+    //  System.out.println("Final sum: " + sum);
+
+    // ist one is that 
+    int []arr=arr=new int [5];
+    arr[0]=20;
+    arr[1]=30;
+    System.out.println(arr[0]);
+    System.out.println(arr[1]);
+    arr[5]=50;
+    System.out.println(arr[5]);//this will give the eror
+    
 
 
 }
