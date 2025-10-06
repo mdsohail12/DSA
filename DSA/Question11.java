@@ -1,8 +1,10 @@
 // import java.util.Scanner;
 
+import java.util.Scanner;
+
 public class Question11 {
     public static void main(String[] args) {
-        // Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
     //     int n=sc.nextInt();
     //         int first=0,second=1;
     //            System.out.println("Fibonacci Series up to " + n + " terms:");
@@ -95,12 +97,12 @@ public class Question11 {
 //     System.out.print(ch);
 // }
 
-for(int i=68;i>=65;i--){
-    for(int j=i;j>=65;j--){
-        System.out.print((char)j);
-    }
-    System.out.println();
-}
+// for(int i=68;i>=65;i--){
+//     for(int j=i;j>=65;j--){
+//         System.out.print((char)j);
+//     }
+//     System.out.println();
+// }
 // for(int i=1;i<=4;i++){
 //     for(int j=1;j<=i;j++){
 //         System.out.print("*");
@@ -110,6 +112,20 @@ for(int i=68;i>=65;i--){
 
     //  sc.close();
     // System.out.println("hiii");
+
+    // check prime number
+    int count=0;
+    int n=sc.nextInt();
+    for(int i=1;i<=n;i++){
+        if(n%i==0){
+            count++;
+        }
+    }
+    if(count==2){
+        System.out.println("no.is prime");
+    }
+    else System.out.println("not prime");
+
 }
     }
             
