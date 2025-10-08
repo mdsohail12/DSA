@@ -146,22 +146,33 @@ public class Question11 {
     // System.out.println(arr[1]);
     // arr[5]=50;
     // System.out.println(arr[5]);//this will give the eror
-System.out.println("Enter array size");
-int n=sc.nextInt();
-    int []arr=new int [n];
-    int sum=0;
-    for(int i=0;i<n;i++){
-        arr[i]=sc.nextInt();
-    }
-    for(int i=0;i<n;i++){
-       sum=sum+arr[i];
-    }
-        System.out.println(Arrays.toString(arr));
-        System.out.println(sum);
-        System.out.println("Avg is"+(double)sum/n);
-
-        // System.out.println(Arrays.toString(arr));
-
+// System.out.println("Enter array size");
+// int n=sc.nextInt();
+//     int []arr=new int [n];
+//     int sum=0;
+//     for(int i=0;i<n;i++){
+//         arr[i]=sc.nextInt();
+//     }
+//     for(int i=0;i<n;i++){
+//        sum=sum+arr[i];
+//     }
+//         System.out.println(Arrays.toString(arr));
+//         System.out.println(sum);
+//         System.out.println("Avg is"+(double)sum/n);
+           int []arr={1,0,3};
+           int n=arr.length;
+           int current_sum=0;
+        //    int total_sum=0;
+          int total_sum=n*(n+1)/2;
+           for(int x:arr){
+            current_sum=current_sum+x;
+           }
+           int miss=total_sum-current_sum;
+              System.out.print("Array with missing number: [");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + ", ");
+        }
+           System.out.println(miss+"]");
     
 
 
