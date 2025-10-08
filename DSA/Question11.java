@@ -176,14 +176,29 @@ public class Question11 {
 
         // find the sum of array in the elemnt
         // taking array size like [1,2,3,4,5]
-        int n=sc.nextInt();
-        int arr[]=new int [n];
-        int sum=0;
-        for(int i=0;i<n;i++){
-            arr[i]=sc.nextInt();
-            sum=sum+arr[i];
+        // int n=sc.nextInt();
+        // int arr[]=new int [n];
+        // int sum=0;
+        // for(int i=0;i<n;i++){
+        //     arr[i]=sc.nextInt();
+        //     sum=sum+arr[i];
+        // }
+        // System.out.println("sum of array is "+sum);
+
+        // find min and mx in array
+        int max=Integer.MIN_VALUE;
+        int min=Integer.MAX_VALUE;
+        int []arr={5, 1, 8, 2};
+        for(int x:arr){
+            if(x>max){
+                max=x;
+            }
+            if(x<min){
+                min=x;
+            }
         }
-        System.out.println("sum of array is "+sum);
+        System.out.println(max+"max h");
+        System.out.println(min+"min h");
 
     
 
