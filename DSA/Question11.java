@@ -231,21 +231,58 @@ public class Question11 {
         // }
 
         // 2nd approach
-        int []arr={1, 2, 3, 4};
-        System.out.println("Original array: " + Arrays.toString(arr));
-        int n=arr.length;
-        int temp=0;
-        for(int i=0;i<n/2;i++){
-            temp=arr[i];
-            arr[i]=arr[n-i-1];
-            arr[n-i-1]=temp;
-        }
+        // int []arr={1, 2, 3, 4};
+        // System.out.println("Original array: " + Arrays.toString(arr));
+        // int n=arr.length;
+        // int temp=0;
+        // for(int i=0;i<n/2;i++){
+        //     temp=arr[i];
+        //     arr[i]=arr[n-i-1];
+        //     arr[n-i-1]=temp;
+        // }
         // System.out.println("Reversed array: ");
         // for (int i : arr) {
         //     System.out.println(i+" ");
         // }
 
-         System.out.println("Reversed array: " + Arrays.toString(arr));
+        //  System.out.println("Reversed array: " + Arrays.toString(arr));
+
+        // largest number
+
+        //  int []arr={5, 1, 8, 2};
+        //  int minimum=Integer.MAX_VALUE;
+        //  for(int i=0;i<arr.length;i++){
+        //     if(minimum>arr[i]){
+        //         minimum=arr[i];
+        //     }
+        //  }
+        //  System.out.println(minimum);
+        //  int []arr={5, 1, 8, 2};
+        //  int maximum=Integer.MIN_VALUE;
+        //  for(int i=0;i<arr.length;i++){
+        //     if(maximum<arr[i]){
+        //         maximum=arr[i];
+        //     }
+        //  }
+        //  System.out.println(maximum);
+
+        // Find the second largest number in an array.
+        int []arr={5, 9, 2, 7};
+        int max = Integer.MIN_VALUE;
+        int secondMax = Integer.MIN_VALUE;
+        for (int x: arr) {
+            if(x>max){
+                secondMax=max;
+                max=x;
+            }
+            else if(x>secondMax&&x<max) {
+                secondMax=x;
+            }  
+        }
+        System.out.println("Largest: " + max);
+System.out.println("Second Largest: " + secondMax);
+System.out.println("Second Largest: i got with some logic");
+
 
 
 
