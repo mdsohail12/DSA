@@ -202,18 +202,51 @@ public class Question11 {
 
 
         // count even or odd array
-        int []arr={2, 5, 7, 8};
-        int even=0;
-        int odd=0;
-        for(int x:arr){
-            if(x%2==0){
-                even++;
-            }
-            else{
-                odd++;
-            }
+        // int []arr={2, 5, 7, 8};
+        // int even=0;
+        // int odd=0;
+        // for(int x:arr){
+        //     if(x%2==0){
+        //         even++;
+        //     }
+        //     else{
+        //         odd++;
+        //     }
+        // }
+        // System.out.println("even is "+even+" odd is "+odd);
+
+        // reverse array without using any extra array
+        // int []arr={1, 2, 3, 4};
+        // int temp=0;
+        // int start=0;
+        // int end=arr.length-1;
+        // while (start<end) {
+        //     temp=arr[start];
+        //     arr[start]=arr[end];
+        //     arr[end]=temp;
+        // }
+        // System.out.println("reversed array");
+        // for(int x:arr){
+        //      System.out.print(x + " ");
+        // }
+
+        // 2nd approach
+        int []arr={1, 2, 3, 4};
+        System.out.println("Original array: " + Arrays.toString(arr));
+        int n=arr.length;
+        int temp=0;
+        for(int i=0;i<n/2;i++){
+            temp=arr[i];
+            arr[i]=arr[n-i-1];
+            arr[n-i-1]=temp;
         }
-        System.out.println("even is "+even+" odd is "+odd);
+        // System.out.println("Reversed array: ");
+        // for (int i : arr) {
+        //     System.out.println(i+" ");
+        // }
+
+         System.out.println("Reversed array: " + Arrays.toString(arr));
+
 
 
 }
