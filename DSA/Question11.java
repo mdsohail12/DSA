@@ -186,21 +186,34 @@ public class Question11 {
         // System.out.println("sum of array is "+sum);
 
         // find min and mx in array
-        int max=Integer.MIN_VALUE;
-        int min=Integer.MAX_VALUE;
-        int []arr={5, 1, 8, 2};
+        // int max=Integer.MIN_VALUE;
+        // int min=Integer.MAX_VALUE;
+        // int []arr={5, 1, 8, 2};
+        // for(int x:arr){
+        //     if(x>max){
+        //         max=x;
+        //     }
+        //     if(x<min){
+        //         min=x;
+        //     }
+        // }
+        // System.out.println(max+"max h");
+        // System.out.println(min+"min h");
+
+
+        // count even or odd array
+        int []arr={2, 5, 7, 8};
+        int even=0;
+        int odd=0;
         for(int x:arr){
-            if(x>max){
-                max=x;
+            if(x%2==0){
+                even++;
             }
-            if(x<min){
-                min=x;
+            else{
+                odd++;
             }
         }
-        System.out.println(max+"max h");
-        System.out.println(min+"min h");
-
-    
+        System.out.println("even is "+even+" odd is "+odd);
 
 
 }
