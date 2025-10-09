@@ -267,21 +267,37 @@ public class Question11 {
         //  System.out.println(maximum);
 
         // Find the second largest number in an array.
-        int []arr={5, 9, 2, 7};
-        int max = Integer.MIN_VALUE;
-        int secondMax = Integer.MIN_VALUE;
-        for (int x: arr) {
-            if(x>max){
-                secondMax=max;
-                max=x;
-            }
-            else if(x>secondMax&&x<max) {
-                secondMax=x;
-            }  
+//         int []arr={5, 9, 2, 7};
+//         int max = Integer.MIN_VALUE;
+//         int secondMax = Integer.MIN_VALUE;
+//         for (int x: arr) {
+//             if(x>max){
+//                 secondMax=max;
+//                 max=x;
+//             }
+//             else if(x>secondMax&&x<max) {
+//                 secondMax=x;
+//             }  
+//         }
+//         System.out.println("Largest: " + max);
+// System.out.println("Second Largest: " + secondMax);
+// System.out.println("Second Largest: i got with some logic");
+
+// Count duplicate elements in an array.
+// 👉 Example: {1, 2, 3, 2, 4, 1} → Duplicates = 1 and 2
+int []arr={1, 2, 3, 2, 4, 1};
+int count=0;
+for(int i=0;i<arr.length;i++){
+    for(int j=i+1;j<arr.length;j++){
+        if(arr[i]==arr[j]){
+            count++;
+             System.out.println("Duplicate found: " + arr[i]);
         }
-        System.out.println("Largest: " + max);
-System.out.println("Second Largest: " + secondMax);
-System.out.println("Second Largest: i got with some logic");
+    }
+
+}
+
+        System.out.println("Total duplicates: " + count);
 
 
 
