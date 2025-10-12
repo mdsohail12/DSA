@@ -297,23 +297,27 @@ public class Question11 {
 // }
 //         System.out.println("Total duplicates: " + count);
 
- int[] arr = {1, 2, 3, 2, 4, 1};
-        boolean[] visited = new boolean[arr.length]; // to avoid recounting
+//  int[] arr = {1, 2, 3, 2, 4, 1};
+//         boolean[] visited = new boolean[arr.length]; // to avoid recounting
 
-        for (int i = 0; i < arr.length; i++) {
-            if (visited[i]) 
-                continue; // skip already counted elements
+//         for (int i = 0; i < arr.length; i++) {
+//             if (visited[i]) 
+//                 continue; // skip already counted elements
 
-            int count = 1;
-            for (int j = i + 1; j < arr.length; j++) {
-                if (arr[i] == arr[j]) {
-                    count++;
-                    visited[j] = true; // mark duplicate as counted
-                }
-            }
+//             int count = 1;
+//             for (int j = i + 1; j < arr.length; j++) {
+//                 if (arr[i] == arr[j]) {
+//                     count++;
+//                     visited[j] = true; // mark duplicate as counted
+//                 }
+//             }
 
-            System.out.println(arr[i] + " occurs " + count + " time(s)");
-        }
+//             System.out.println(arr[i] + " occurs " + count + " time(s)");
+//         }
+
+String str="  Sohail ";
+str=str.trim();
+System.out.println(str);
 }
     }
             
