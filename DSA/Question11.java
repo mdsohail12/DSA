@@ -315,9 +315,12 @@ public class Question11 {
 //             System.out.println(arr[i] + " occurs " + count + " time(s)");
 //         }
 
-String str="  Sohail ";
-str=str.trim();
-System.out.println(str);
+String sentence = "This is a sample sentence.";
+    String[] words = sentence.split(" ");
+    System.out.println(Arrays.toString(words));
+// String str="  Sohail ";
+// str=str.trim();
+// System.out.println(str);
 }
     }
             
