@@ -315,12 +315,21 @@ public class Question11 {
 //             System.out.println(arr[i] + " occurs " + count + " time(s)");
 //         }
 
-String sentence = "This is a sample sentence.";
-    String[] words = sentence.split(" ");
-    System.out.println(Arrays.toString(words));
+// String sentence = "This is a sample sentence.";
+//     String[] words = sentence.split(" ");
+//     System.out.println(Arrays.toString(words));
 // String str="  Sohail ";
 // str=str.trim();
 // System.out.println(str);
+
+
+int a=10;
+int b=20;
+System.out.println("before swap"+a+" "+b);
+a=a+b;
+b=a-b;
+a=a-b;
+System.out.println("after swap"+a+" "+b);
 }
     }
             
