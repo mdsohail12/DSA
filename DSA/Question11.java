@@ -323,15 +323,37 @@ public class Question11 {
 // System.out.println(str);
 
 
-int a=10;
-int b=20;
-System.out.println("before swap"+a+" "+b);
-a=a+b;
-b=a-b;
-a=a-b;
-System.out.println("after swap"+a+" "+b);
-}
-    }
+// int a=10;
+// int b=20;
+// System.out.println("before swap"+a+" "+b);
+// a=a+b;
+// b=a-b;
+// a=a-b;
+// System.out.println("after swap"+a+" "+b);
+// }
+//     }
+// count even or odd array
+        // int []arr={2, 5, 7, 8};
+        // int even=0;
+        // int odd=0;
+        // for(int x:arr){
+        //     if(x%2==0){
+        //         even++;
+        //     }
+        //     else{
+        //         odd++;
+
+        //     }
+        //      System.out.println("even is "+even+" odd is "+odd);
+        // }
+        String s1=new String ("Bhopal");
+        String s2=new String ("Bhopal");
+        System.out.println(s1);
+        System.out.println(s2);
+        System.out.println(s1==s2);
+
+    }}
+       
             
             
             
