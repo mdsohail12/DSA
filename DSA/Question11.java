@@ -346,11 +346,17 @@ public class Question11 {
         //     }
         //      System.out.println("even is "+even+" odd is "+odd);
         // }
-        String s1=new String ("Bhopal");
-        String s2=new String ("Bhopal");
-        System.out.println(s1);
-        System.out.println(s2);
-        System.out.println(s1==s2);
+        // String s1=new String ("Bhopal");
+        // String s2=new String ("Bhopal");
+        // System.out.println(s1);
+        // System.out.println(s2);
+        // System.out.println(s1==s2);
+
+        for(int i=1;i<=50;i++){
+           
+
+        }
+
 
     }}
        
