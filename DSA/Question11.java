@@ -353,10 +353,12 @@ public class Question11 {
         // System.out.println(s1==s2);
 
         for(int i=1;i<=50;i++){
-           
-
+           if(i%2==0){
+            System.out.println(i);
+           }
         }
 
+        
 
     }}
        
