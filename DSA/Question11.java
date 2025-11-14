@@ -356,14 +356,23 @@ public class Question11 {
 //          sum=i+sum;
 //         }
         // System.out.println(sum);
-        int n=426;
-        int sum=0;
-      for(int i=1;i<=n;i++){
-       int digit=n%10;
-        sum+=digit;
+        int n=123;
+        int rev=0;
+      for(;n!=0;){
+        int rem=n%10;
+        rev=rev*10+rem;
         n=n/10;
       }
-      System.out.println(sum);
+      System.out.println(rev);
+
+    //     int n=123;
+    //   for(;n!=0;){
+    //     int rem=n%10;
+    //   System.out.println(rem);
+    //     n=n/10;
+
+
+    //   }
 
 
 
