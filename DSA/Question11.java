@@ -351,11 +351,19 @@ public class Question11 {
         // System.out.println(s1);
         // System.out.println(s2);
         // System.out.println(s1==s2);
-int sum=0;
-        for(int i=1;i<=100;i++){
-         sum=i+sum;
-        }
-        System.out.println(sum);
+// int sum=0;
+//         for(int i=1;i<=100;i++){
+//          sum=i+sum;
+//         }
+        // System.out.println(sum);
+        int n=426;
+        int sum=0;
+      for(int i=1;i<=n;i++){
+       int digit=n%10;
+        sum+=digit;
+        n=n/10;
+      }
+      System.out.println(sum);
 
 
 
