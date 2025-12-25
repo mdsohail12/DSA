@@ -2,9 +2,10 @@
 
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class Question11 {
+
     public static void main(String[] args) {
+
         Scanner sc=new Scanner(System.in);
     //     int n=sc.nextInt();
     //         int first=0,second=1;
@@ -356,14 +357,14 @@ public class Question11 {
 //          sum=i+sum;
 //         }
         // System.out.println(sum);
-        int n=123;
-        int rev=0;
-      for(;n!=0;){
-        int rem=n%10;
-        rev=rev*10+rem;
-        n=n/10;
-      }
-      System.out.println(rev);
+      //   int n=123;
+      //   int rev=0;
+      // for(;n!=0;){
+      //   int rem=n%10;
+      //   rev=rev*10+rem;
+      //   n=n/10;
+      // }
+      // System.out.println(rev);
 
     //     int n=123;
     //   for(;n!=0;){
@@ -373,6 +374,32 @@ public class Question11 {
 
 
     //   }
+
+    // questino aarray start from here
+    // int []arr={1, 2, 3, 4};
+    // int sum=0;
+    // for(int i=0;i<arr.length;i++){
+    //   sum=sum+arr[i];
+    // }
+    // System.out.println(sum);
+
+    // System.out.println("ENter the Array size n");
+    // int n=sc.nextInt();
+    // int []arr=new int[n];
+    // for(int  i=0;i<n;i++){
+    //   arr[i]=sc.nextInt();
+    // }
+    // System.out.println("see the array element");
+    // for(int i=0;i<n;i++){
+    // System.out.println(arr[i]+ " ");
+    // }
+
+
+    
+
+
+
+
 
 
 
