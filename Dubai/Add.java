@@ -562,14 +562,14 @@ public class Add {
 // }
 // System.out.println(sum);
 
-// int n=sc.nextInt();
-// int firstDigit=n%10;
-// while (n>=10) {
-//     n=n/10;
-// }
-// int lastDigit=n;
-// int sum=firstDigit+lastDigit;
-// System.out.println(sum);
+int n=sc.nextInt();
+int firstDigit=n%10;
+while (n>=10) {
+    n=n/10;
+}
+int lastDigit=n;
+int sum=firstDigit+lastDigit;
+System.out.println(sum);
 
 
 // int num=sc.nextInt();
@@ -609,16 +609,16 @@ public class Add {
 
 
 
-int n=sc.nextInt();
-int a=0;
-int b=1;
-System.out.println("we have already "+a +" " +b+" ");
-for(int i=0;i<n;i++){
-    System.out.print(a + " ");
-    int c=a+b;
-    a=b;
-    b=c;
-}
+// int n=sc.nextInt();
+// int a=0;
+// int b=1;
+// System.out.println("we have already "+a +" " +b+" ");
+// for(int i=0;i<n;i++){
+//     System.out.print(a + " ");
+//     int c=a+b;
+//     a=b;
+//     b=c;
+// }
 
 
 
