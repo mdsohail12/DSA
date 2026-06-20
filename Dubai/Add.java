@@ -562,14 +562,16 @@ public class Add {
 // }
 // System.out.println(sum);
 
-int n=sc.nextInt();
-int firstDigit=n%10;
-while (n>=10) {
-    n=n/10;
-}
-int lastDigit=n;
-int sum=firstDigit+lastDigit;
-System.out.println(sum);
+
+// sum of last and first digit like 2157<<2+7=9
+// int n=sc.nextInt();
+// int firstDigit=n%10;
+// while (n>=10) {
+//     n=n/10;
+// }
+// int lastDigit=n;
+// int sum=firstDigit+lastDigit;
+// System.out.println(sum);
 
 
 // int num=sc.nextInt();
@@ -650,9 +652,19 @@ System.out.println(sum);
 
 
 
+// nOw Start Array start from ok
+// for(int num:number){
+//     System.out.println(numbers[num]);
+// }
 
+int numbers[]={1,2,3};
+for(int num:numbers){
+    System.out.println(num);
+}
 
-
+// for(int i=0;i<numbers.length;i++){
+//     System.out.println(numbers[i]);
+// }
 
 
 
