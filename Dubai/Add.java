@@ -686,19 +686,42 @@ public class Add {
 
 
 // using enhanced for loop privious code chamge ok
-int sum=0;
+// int sum=0;
+// System.out.println("Enter array size");
+// int n=sc.nextInt();
+// int []arr=new int[n];
+// System.out.println("Enter array no");
+// for(int i = 0; i < arr.length; i++){
+//     arr[i] = sc.nextInt();
+// }
+// for(int x:arr){
+//     System.out.println(x);
+//     sum=sum+x;
+// }
+// System.out.println("sum is "+sum+" Avg is "+(double)sum/n);
+
+
 System.out.println("Enter array size");
 int n=sc.nextInt();
 int []arr=new int[n];
 System.out.println("Enter array no");
 for(int i = 0; i < arr.length; i++){
     arr[i] = sc.nextInt();
+    }
+    System.out.println(Arrays.toString(arr));
+    System.out.println("Even numbers are:");
+for(int i = 0; i < n; i++){
+    if(arr[i] % 2 == 0){
+        System.out.println(arr[i]);
+    }
 }
-for(int x:arr){
-    System.out.println(x);
-    sum=sum+x;
+
+    System.out.println("Odd numbers are:");
+    for(int i = 0; i < n; i++){
+    if(arr[i] % 2 != 0){
+        System.out.println(arr[i]);
+    }
 }
-System.out.println("sum is "+sum+" Avg is "+(double)sum/n);
 
 
 
