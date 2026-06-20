@@ -1,5 +1,6 @@
 package Dubai;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 // import javax.sound.sampled.SourceDataLine;
@@ -657,14 +658,48 @@ public class Add {
 //     System.out.println(numbers[num]);
 // }
 
-int numbers[]={1,2,3};
-for(int num:numbers){
-    System.out.println(num);
-}
+// int numbers[]={1,2,3};//array innitilization ok
+// for(int num:numbers){
+//     System.out.println(num);
+// }
 
 // for(int i=0;i<numbers.length;i++){
 //     System.out.println(numbers[i]);
 // }
+
+// System.out.println("Enter Arrays Size");
+// int n=sc.nextInt();
+// int []arr=new int[n];
+// System.out.println("Enter array value");
+// for(int i=0;i<n;i++){
+//     // System.out.println("Enter a number as u want");
+//     arr[i]=sc.nextInt();
+//     // System.out.println(Arrays.toString(arr));
+// }
+// int sum=0;
+// for(int i=0;i<n;i++){
+// sum=sum+arr[i];
+// }
+// System.out.println(Arrays.toString(arr)+"Array of length "+arr.length);
+// System.out.println("sum is "+sum+" "+"avg is "+(double)sum/n);
+
+
+
+// using enhanced for loop privious code chamge ok
+int sum=0;
+System.out.println("Enter array size");
+int n=sc.nextInt();
+int []arr=new int[n];
+System.out.println("Enter array no");
+for(int i = 0; i < arr.length; i++){
+    arr[i] = sc.nextInt();
+}
+for(int x:arr){
+    System.out.println(x);
+    sum=sum+x;
+}
+System.out.println("sum is "+sum+" Avg is "+(double)sum/n);
+
 
 
 
