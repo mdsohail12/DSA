@@ -609,43 +609,43 @@ public class Add {
 
 
 
-// int n=sc.nextInt();
-// int a=0;
-// int b=1;
-// System.out.println("we have already "+a +" " +b+" ");
-// for(int i=0;i<n;i++){
-//     System.out.print(a + " ");
-//     int c=a+b;
-//     a=b;
-//     b=c;
+int n=sc.nextInt();
+int a=0;
+int b=1;
+System.out.println("we have already "+a +" " +b+" ");
+for(int i=0;i<n;i++){
+    System.out.print(a + " ");
+    int c=a+b;
+    a=b;
+    b=c;
+}
+
+
+
+// int num=sc.nextInt();
+// int original=num;
+// int tempt=num;
+// int digits=0;
+// // step 1
+// while (tempt>0) {
+//      digits++;
+//      tempt=tempt/10;
+// }
+// // now step 2 find armstrong
+// int sum=0;
+// tempt=num;
+// while (tempt>0) {
+//     int digit=tempt%10;
+//     sum+=Math.pow(digit, digits);
+//     tempt=tempt/10;
 // }
 
-
-
-int num=sc.nextInt();
-int original=num;
-int tempt=num;
-int digits=0;
-// step 1
-while (tempt>0) {
-     digits++;
-     tempt=tempt/10;
-}
-// now step 2 find armstrong
-int sum=0;
-tempt=num;
-while (tempt>0) {
-    int digit=tempt%10;
-    sum+=Math.pow(digit, digits);
-    tempt=tempt/10;
-}
-
-if(sum==original){
-    System.out.println("armstrong");
-}else{
-    System.out.println("not armstrong");
-}
-System.out.println(digits);
+// if(sum==original){
+//     System.out.println("armstrong");
+// }else{
+//     System.out.println("not armstrong");
+// }
+// System.out.println(digits);
 
 
 
