@@ -356,17 +356,296 @@ public class Add {
 // }
 // System.out.println(rev);
 
-String name="Sohail";
-for(int i=0;i<name.length();i++){
-    System.out.print(name.charAt(i));
-    System.out.println(" i have pushed all code on git hub");
+// String name="Sohail";
+// for(int i=0;i<name.length();i++){
+//     System.out.print(name.charAt(i));
+//     System.out.println(" i have pushed all code on git hub");
+// }
+
+// Find the sum of first N natural numbers.
+
+// int natural=sc.nextInt();
+// int sum=0;
+// for(int i=0;i<=natural;i++){
+//     sum=sum+i;
+// }
+// System.out.println("sum of natural no. is "+sum);
+
+// int multiplication=sc.nextInt();
+// for(int i=1;i<=10;i++){
+// System.out.println(multiplication+"*"+i + "="+multiplication*i);
+
+// }
+// count number digit
+// int number=sc.nextInt();
+// int count=0;
+// while(number != 0){
+//     // int count=digit%10;
+//     number=number/10;
+//     count++;
+// }
+//     System.out.println(count);
+
+// int n=sc.nextInt();
+// boolean isprime=true;
+// if(n<=1){
+//      isprime=false;
+// }else{
+//     for(int i=2;i<n;i++){
+//         if(n%i==0){
+//             isprime=false;
+//             break;
+//         }
+//     }
+// }
+// if(isprime){
+//     System.out.println("prime number");
+// }else System.out.println("not prime");
+
+// for(int num=2;num<=100;num++){
+//     boolean isPrime=true;
+//     for(int i=2;i<=num/2;i++){
+//         if(num%i==0){
+//             isPrime=false;
+//             break;
+//         }
+//     }
+//     if(isPrime){
+//         System.out.println(num+" no is prime");
+//     }
+
+// }
+
+
+// convert uppercase to lowercase
+
+// String name="SOHAIL";
+// System.out.println("i have changed lower to upper"+name.toLowerCase());
+
+// String name="Sohail";
+// String str="";
+// for(int i=name.length()-1;i>=0;i--){
+//     str=str+name.charAt(i);
+// }
+//     System.out.println(str);
+
+// check palindrom
+// String name="madam";
+// String name=sc.nextLine();
+// String str="";
+// for(int i=name.length()-1;i>=0;i--){
+// str=str+name.charAt(i);
+// }
+// if(name.equals(str)){
+//     System.out.println(name+" is palindrom");
+// }else{
+//     System.out.println(name+" is not palindrom");
+
+// }
+
+
+// int number=121;
+// int original=number;
+// int rev=0;
+// while (number>0) {
+//   int digit=number%10;
+//   rev=rev*10+digit;
+//   number=number/10;
+// }
+// if (original==rev) {
+//     System.out.println(number+" is palindrom");
+// }
+// else System.out.println(number+" not palindrom");
+
+// Find the vowel letter
+// String name="Sohail";
+// String str="";
+// for(int i=0;i<name.length();i++){
+//     char ch=name.charAt(i);
+//         System.out.println(ch);
+//     // System.out.println(name.charAt(i));
+
+// }
+// System.out.println("Reverse String");
+//     for(int i=name.length()-1;i>=0;i--){
+//         str=str+name.charAt(i);
+// }
+// System.out.println(str);
+
+// char ch=sc.next().charAt(0);
+// if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' || ch == 'A' || ch == 'E' || ch == 'I' || ch == 'O' || ch == 'U'){
+//     System.out.println(ch+" is Vowel letter");
+// }else{
+//     System.out.println(ch+" Character is Consanant");
+// }
+
+// reverse number
+// int n=sc.nextInt();
+// int rev=0;
+// while (n>0) {
+//     rev=rev*10+n%10;
+//     n=n/10;
+// }
+// System.out.println(rev);
+
+// A palindrome number is a number that reads the same from left to right and right to left
+// int number=121;
+// int original=number;
+// int rev=0;
+// while (number>0) {
+//      rev=rev*10+number%10;
+//      number=number/10;
+// }
+// if(rev==original){
+//     System.out.println("palindrom");
+// }
+
+// A palindrome string is a string that reads the same from both directions.
+// String name="madam";
+// String name=sc.nextLine();
+// String rev="";
+// String original=name;
+// for(int i=name.length()-1;i>=0;i--){
+//     rev=rev+name.charAt(i);
+// }
+// System.out.println(rev);
+// if(original.equals(rev)){
+// System.out.println(name+" String is palindrome");
+// }else{
+//     System.out.println(name+" String is not palindrome");
+// }
+
+
+
+// int a=sc.nextInt();
+// int b=sc.nextInt();
+// int c=sc.nextInt();
+// if(a>b && a>c){
+//     System.out.println(a+" a is big");
+// }
+// else if(b>a && b>c){
+//     System.out.println(b+" b is big");
+// }else{
+//     System.out.println(c+" c is big");
+// }
+
+// int a=sc.nextInt();
+// int b=sc.nextInt();
+// if(a>b){
+//     System.out.println(a+" a is big");
+// }else{
+//     System.out.println(b+" b is big");
+// }
+
+// String str = "sohail soaib tanweer";
+// String [] word=str.split(" ");
+// System.out.println("total word = "+word.length);
+// 154<-->451
+
+// int n=sc.nextInt();
+// int sum=0;
+// while (n>0) {
+//     int digit=n%10;
+//     sum=sum+digit;
+//     n=n/10;
+// }
+// System.out.println(sum);
+
+// int sum=0;
+// for(; ;){
+// System.out.println("Enter no. continue input 0 ");
+//     int num=sc.nextInt();
+//     if(num==0){
+//       break;
+//     }
+//     sum=sum+num;
+// }
+// System.out.println(sum);
+
+// int n=sc.nextInt();
+// int firstDigit=n%10;
+// while (n>=10) {
+//     n=n/10;
+// }
+// int lastDigit=n;
+// int sum=firstDigit+lastDigit;
+// System.out.println(sum);
+
+
+// int num=sc.nextInt();
+// int original=num;
+// int tempt=num;
+// int digits=0;
+// // step 1st count digit 
+// while (tempt>0) {
+//     digits++;
+//     tempt=tempt/10;
+// }
+// //step 2 sum of armstrong
+// int sum=0;
+//  tempt=num;
+//  while (tempt>0) {
+//     int digit=tempt%10;
+//     sum+=Math.pow(digit, digits);
+//     tempt=tempt/10;
+//  }
+// if(original==sum){
+//     System.out.println(sum+" is armstrong number");
+// }else{
+//     System.out.println(sum+"is not armstrong");
+// }
+
+// int n=sc.nextInt();
+// int a=0;
+// int b=1;
+// System.out.println(a+" "+b+" ");
+//  for (int i = 2; i < n; i++) {
+//             int c = a + b;
+//             System.out.print(c + " ");
+//             a = b;
+//             b = c;
+//         }
+
+
+
+
+// int n=sc.nextInt();
+// int a=0;
+// int b=1;
+// System.out.println("we have already "+a +" " +b+" ");
+// for(int i=0;i<n;i++){
+//     System.out.print(a + " ");
+//     int c=a+b;
+//     a=b;
+//     b=c;
+// }
+
+
+
+int num=sc.nextInt();
+int original=num;
+int tempt=num;
+int digits=0;
+// step 1
+while (tempt>0) {
+     digits++;
+     tempt=tempt/10;
+}
+// now step 2 find armstrong
+int sum=0;
+tempt=num;
+while (tempt>0) {
+    int digit=tempt%10;
+    sum+=Math.pow(digit, digits);
+    tempt=tempt/10;
 }
 
-
-
-
-
-
+if(sum==original){
+    System.out.println("armstrong");
+}else{
+    System.out.println("not armstrong");
+}
+System.out.println(digits);
 
 
 
