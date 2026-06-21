@@ -15,7 +15,8 @@ public class Arrmax {
             System.out.println(Arrays.toString(arr));
 
         // now find the max and min
-        int max=arr[0];
+        // int max=arr[0];
+        int max=Integer.MAX_VALUE;
         for(int i=0;i<n;i++){
             if(max<arr[i]){
                 max=arr[i];
@@ -23,6 +24,7 @@ public class Arrmax {
         }
         System.out.println(max+" Max value in array");
         // // now find the max and min
+        // int min=Integer.MIN_VALUE;
         // int min=arr[0];
         // for(int i=0;i<n;i++){
         //     if(min>arr[i]){
