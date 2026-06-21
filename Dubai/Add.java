@@ -701,27 +701,31 @@ public class Add {
 // System.out.println("sum is "+sum+" Avg is "+(double)sum/n);
 
 
-System.out.println("Enter array size");
-int n=sc.nextInt();
-int []arr=new int[n];
-System.out.println("Enter array no");
-for(int i = 0; i < arr.length; i++){
-    arr[i] = sc.nextInt();
-    }
-    System.out.println(Arrays.toString(arr));
-    System.out.println("Even numbers are:");
-for(int i = 0; i < n; i++){
-    if(arr[i] % 2 == 0){
-        System.out.println(arr[i]);
-    }
-}
+// System.out.println("Enter array size");
+// int n=sc.nextInt();
+// int []arr=new int[n];
+// System.out.println("Enter array no");
+// for(int i = 0; i < arr.length; i++){
+//     arr[i] = sc.nextInt();
+//     }
+//     System.out.println(Arrays.toString(arr));
+//     System.out.println("Even numbers are:");
+// for(int i = 0; i < n; i++){
+//     if(arr[i] % 2 == 0){
+//         System.out.println(arr[i]);
+//     }
+// }
 
-    System.out.println("Odd numbers are:");
-    for(int i = 0; i < n; i++){
-    if(arr[i] % 2 != 0){
-        System.out.println(arr[i]);
-    }
-}
+//     System.out.println("Odd numbers are:");
+//     for(int i = 0; i < n; i++){
+//     if(arr[i] % 2 != 0){
+//         System.out.println(arr[i]);
+//     }
+// }
+
+
+
+
 
 
 
