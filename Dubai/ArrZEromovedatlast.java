@@ -13,6 +13,7 @@ public class ArrZEromovedatlast {
             }
         }
         System.out.println(Arrays.toString(arr));
+        System.out.println("I think i have completed all question");
     }
     
 }
