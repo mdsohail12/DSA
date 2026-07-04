@@ -20,8 +20,11 @@ public class Method {
     //     }
        
     // }
-    public static int myMethod(int x){
-       return x+5;
+    // public static int myMethod(int x){
+    //    return x+5;
+    // }
+    public static int myMethod(int x,int y){
+       return x+y;
     }
     public static void main(String[] args) {
         // myMethod();
@@ -30,7 +33,8 @@ public class Method {
         // myMethod("Sohail",26);
         // myMethod("Soaib",32);
         // myMethod(20);
-           System.out.println(  myMethod(20));
+        //    System.out.println(  myMethod(20));
+           System.out.println(  myMethod(20,10));
       
         
         
