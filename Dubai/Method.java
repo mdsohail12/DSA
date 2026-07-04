@@ -12,13 +12,16 @@ public class Method {
     //     System.out.println("My name is "+fname+" and age is  "+ age);
     // }
     // start with if else
-    public static void myMethod(int age){
-        if(age<18){
-             System.out.println("Access denied - You are not old enough!");
-        }else{
-            System.out.println("Access granted - You are old enough!");
-        }
+    // public static void myMethod(int age){
+    //     if(age<18){
+    //          System.out.println("Access denied - You are not old enough!");
+    //     }else{
+    //         System.out.println("Access granted - You are old enough!");
+    //     }
        
+    // }
+    public static int myMethod(int x){
+       return x+5;
     }
     public static void main(String[] args) {
         // myMethod();
@@ -26,7 +29,9 @@ public class Method {
         // myMethod("Soaib");
         // myMethod("Sohail",26);
         // myMethod("Soaib",32);
-        myMethod(20);
+        // myMethod(20);
+           System.out.println(  myMethod(20));
+      
         
         
     }
