@@ -23,6 +23,9 @@ public class Method {
     // public static int myMethod(int x){
     //    return x+5;
     // }
+    // public static int myMethod(int x,int y){
+    //    return x+y;
+    // }
     public static int myMethod(int x,int y){
        return x+y;
     }
@@ -34,7 +37,9 @@ public class Method {
         // myMethod("Soaib",32);
         // myMethod(20);
         //    System.out.println(  myMethod(20));
-           System.out.println(  myMethod(20,10));
+        //    System.out.println(  myMethod(20,10));
+        int z=myMethod(20,10);
+           System.out.println(z);
       
         
         
