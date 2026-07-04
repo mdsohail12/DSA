@@ -29,6 +29,9 @@ public class Method {
     public static int myMethod(int x,int y){
        return x+y;
     }
+    public static int myMethod(int x){
+       return x*2;
+    }
     public static void main(String[] args) {
         // myMethod();
         // myMethod("Sohail");
@@ -38,8 +41,13 @@ public class Method {
         // myMethod(20);
         //    System.out.println(  myMethod(20));
         //    System.out.println(  myMethod(20,10));
-        int z=myMethod(20,10);
-           System.out.println(z);
+        // int z=myMethod(20,10);
+        //    System.out.println(z);
+       for(int i=1;i<=5;i++){
+           System.out.println("Double of "+i+" is "+myMethod(i));
+
+
+       }
       
         
         
