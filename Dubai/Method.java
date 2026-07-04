@@ -26,11 +26,17 @@ public class Method {
     // public static int myMethod(int x,int y){
     //    return x+y;
     // }
+    // public static int myMethod(int x,int y){
+    //    return x+y;
+    // }
+    // public static int myMethod(int x){
+    //    return x*2;
+    // }
     public static int myMethod(int x,int y){
        return x+y;
     }
-    public static int myMethod(int x){
-       return x*2;
+    public static double myMethod(double x,double y){
+       return x+y;
     }
     public static void main(String[] args) {
         // myMethod();
@@ -43,11 +49,12 @@ public class Method {
         //    System.out.println(  myMethod(20,10));
         // int z=myMethod(20,10);
         //    System.out.println(z);
-       for(int i=1;i<=5;i++){
-           System.out.println("Double of "+i+" is "+myMethod(i));
-
-
-       }
+    //    for(int i=1;i<=5;i++){
+    //        System.out.println("Double of "+i+" is "+myMethod(i));
+    //    }
+    int myNum1=myMethod(2,3);
+    double myNum2=myMethod(2.5,3.5);
+    System.out.println(myNum1+" "+ myNum2);
       
         
         
