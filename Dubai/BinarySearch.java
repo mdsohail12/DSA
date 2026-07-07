@@ -5,7 +5,7 @@ public class BinarySearch {
         int[]arr = {10, 20, 30, 40, 50, 60, 70, 80, 90};
         int left=0;
        int right=arr.length-1;
-       int target =70;
+       int target =100;
        while(left<=right){
         int mid=(left+(right-left)/2);
         if(arr[mid]==target){
@@ -18,6 +18,7 @@ public class BinarySearch {
             left=mid+1;
         }
        }
+       System.out.println("Element not fount");
 
     }
     
