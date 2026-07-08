@@ -5,10 +5,12 @@ public class BinarySearch {
         int[]arr = {10, 20, 30, 40, 50, 60, 70, 80, 90};
         int left=0;
        int right=arr.length-1;
-       int target =100;
+       int target =70;
+       boolean flag=false;
        while(left<=right){
         int mid=(left+(right-left)/2);
         if(arr[mid]==target){
+            flag=true;
            System.out.println("Element found at index " + mid);
            break;
         }else if(arr[mid]>target){
@@ -18,7 +20,9 @@ public class BinarySearch {
             left=mid+1;
         }
        }
+       if(flag!=true){
        System.out.println("Element not fount");
+       }
 
     }
     
