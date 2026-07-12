@@ -1,7 +1,8 @@
 public class binaryTotalOccurance {
     public static void main(String[] args) {
         int []arr={10, 20, 20, 20, 30, 40};
-        int target=20;
+        int target=200;
+        // int target=20;
         int save=-1;
         int left=0;
         int right=arr.length-1;
