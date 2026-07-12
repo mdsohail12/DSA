@@ -23,19 +23,17 @@ public class binaryTotalOccurance {
             System.out.println("First occurance is "+save);
 
             // starrt find last occurance ok
-            int []arr2={10, 20, 20, 20, 30, 40};
-        int target2=20;
         int save2=-1;
         int left1=0;
         int right2=arr.length-1;
         // System.out.println(right);//5
         while (left1<=right2) {
             int mid=(left1+(right2-left1)/2);
-            if(arr2[mid]==target2){
+            if(arr[mid]==target){
                 save2=mid;
                 left1=mid+1;
             }
-             else if(arr2[mid]<=target2){
+             else if(arr[mid]<=target){
                 left1=mid+1;
             }
             else{
@@ -43,9 +41,13 @@ public class binaryTotalOccurance {
             }
         }
             System.out.println("Last occurance is "+save2);
-            int totallOcurance=save2-save+1;
+// here we are checking if the target is not availabel then we have to write this approach ok
+        if(save==-1){
+            System.out.println(0);
+        }else{
+             int totallOcurance=save2-save+1;
             System.out.println("Total occurance in the arry is "+totallOcurance);
-
+        }
 
 
     }
