@@ -9,6 +9,7 @@ public class firstoccurance {
         int save=0;
         while(left<=right){
             int mid=(left+(right-left)/2);
+            // System.out.println(mid);
            if(arr[mid]==target){
              save= mid;
             right=mid-1;
