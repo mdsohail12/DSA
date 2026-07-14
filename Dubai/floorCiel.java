@@ -4,18 +4,28 @@ public class floorCiel {
     int target = 25;
     int left=0;
     int right=arr.length-1;
-    System.out.println(right);
-    int save=0;
+    // System.out.println(right);
+    int save=-1;
     while (left<=right) {
         int mid=(left+(right-left)/2);
-        // System.out.println(mid);
-        if(arr[mid]>=target){
-            right=mid-1;
-        }else if(arr[mid]<=target){
+        System.out.println(mid);
+        if(arr[mid]==target){
             save=mid;
-            left=mid+1;
+            break;
+        }
+        else if(arr[mid]<target){
+            save=mid;//possible floor
+            left=mid+1;//search larger floor
+        }else{
+            right=mid-1;
         }
     }
-    System.out.println("the nearest floor index no. is "+save+" and nearsef f is "+arr[save]);
+   if(save != -1){
+    System.err.println(arr[save]);
+}
+else{
+    System.out.println("Floor not found");
+
+}
     } 
 }
