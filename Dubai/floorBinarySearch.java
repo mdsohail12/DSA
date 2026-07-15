@@ -1,4 +1,4 @@
-public class cielBinary {
+public class floorBinarySearch {
     public static void main(String[] args) {
          int []arr = {10,20,30,40,50};//Insert Position = 2
     int target = 25;
@@ -20,6 +20,9 @@ public class cielBinary {
             right=mid-1;
         }
     }
+    if(save!=-1){
+        System.out.println(arr[save]);
+    }else System.out.println("not find");
     
 
     }

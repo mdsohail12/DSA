@@ -1,4 +1,4 @@
-public class floorCiel {
+public class cielBinarySearch {
     public static void main(String[] args) {
         int []arr = {10,20,30,40,50};//Insert Position = 2
     int target = 25;
@@ -8,7 +8,7 @@ public class floorCiel {
     int save=-1;
     while (left<=right) {
         int mid=(left+(right-left)/2);
-        System.out.println(mid);
+        // System.out.println(mid);
         if(arr[mid]==target){
             save=mid;
             break;
