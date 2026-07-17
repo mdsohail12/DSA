@@ -1,10 +1,10 @@
 public class decendingOrderBinarySearch {
     public static void main(String[] args) {
        int []arr= {90,80,70,60,50,40};
-       int target = 60;//Return the index.
+       int target = 40;//Return the index.
        int left=0;
        int right=arr.length-1;
-       System.out.println(right);
+    //    System.out.println(right);
        int save=-1;
        while (left<=right) {
         int mid=(left+(right-left)/2);
@@ -13,8 +13,7 @@ public class decendingOrderBinarySearch {
             save=mid;
             break;
         }
-        if(arr[mid]>target){
-            save=mid;
+        else if(arr[mid]>target){
             left=mid+1;
         }
         else{
@@ -22,7 +21,7 @@ public class decendingOrderBinarySearch {
         }
        }
        if(save!=-1){
-               System.out.println("the indext of "+save);   
+               System.out.println("Target found at index "+save);   
        }else{
         System.out.println("not found");
        }
