@@ -1,12 +1,14 @@
 public class searchRotateArray {
     public static void main(String[] args) {
-        int []arr={40, 50, 60, 70, 10, 20, 30};
+        int []arr={40, 50, 60,70 , 10, 20, 30};
         int target=60;
         int left=0;
         int right=arr.length-1;
+        System.out.println(right);
         int answer=-1;
         while (left<=right) {//start loop
             int mid=(left+(right-left)/2);
+            System.out.println(mid);
             if (arr[mid] == target){
                 answer=mid;
             break;
