@@ -1,19 +1,14 @@
-public class recursionOneToFivePrint {
+public class recursionReversetentoone {
     public static void check(int n){
         if(n==0){
             return;
         }
         System.out.println(n);
         n--;
-       check(n+1);.
-
+        check(n);
     }
-
     public static void main(String[] args) {
         check(10);
-        
     }
     
 }
-//  n--;
-//         check(n);
