@@ -4,8 +4,9 @@ public class recursionReversetentoone {
             return;
         }
         System.out.println(n);
-        n--;
-        check(n);
+        // n--;
+        // check(n);
+        check(n-1);
     }
     public static void main(String[] args) {
         check(10);
