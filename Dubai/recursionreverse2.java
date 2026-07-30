@@ -1,6 +1,7 @@
 package Dubai;
 
 public class recursionreverse2 {
+    // first count the digit ok
     public static int countDigit(int n){
         if(n==0){
         return 0;
@@ -8,6 +9,7 @@ public class recursionreverse2 {
         }
         return 1+countDigit(n/10);
     }
+    // print the reverse number
     public static int printReverse(int n){
         if(n==0){
             return 0;
