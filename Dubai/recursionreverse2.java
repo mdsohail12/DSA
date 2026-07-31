@@ -16,9 +16,22 @@ public class recursionreverse2 {
         }
          return (int)(n % 10 * Math.pow(10, countDigit(n/10)))+ printReverse(n/10);
         }
+
+        // new reverse way to make for this recursive call
+        public static int reverse(int n,int rev){
+            if(n==0){
+                return rev;
+            }
+            return reverse(n/10,rev*10+n%10);
+
+        }
     public static void main(String[] args) {
         int n=123;
-       System.out.println( printReverse(n));
+        int rev=0;
+        // reverse(n,rev);
+        System.out.println(reverse(n,rev));
+
+    //    System.out.println( printReverse(n));
     }
     
 }
