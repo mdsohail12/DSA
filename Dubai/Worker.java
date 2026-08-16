@@ -2,14 +2,22 @@ package Dubai;
 
 public class Worker {
     private int hw;
-    private payRate;
+    private double payRate;
 
-    public void setData(int hw1,double rate){
-        hw=hw1;
-        payRate=rate;
+    public void setData(int h,double p){
+        hw=h;
+        payRate=p;
     }
-    public int calculateSalary(){
-        
+    public double calculateSalary(){
+        if(hw<=40){
+            double sallary=hw*payRate;
+           return sallary;
+        }else{
+            double salary = hw * (payRate * 2);
+            return salary;
+        } 
+
+
     }
 
     
