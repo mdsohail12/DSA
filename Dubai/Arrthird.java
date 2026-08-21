@@ -10,6 +10,8 @@ public class Arrthird {
         for(int i=0;i<n;i++){
             arr[i]=sc.nextInt();
         }
+        // int []arr={5, 9, 2, 7};
+        // int n=arr.length;
         int first=Integer.MIN_VALUE;
         int secondLargest=Integer.MIN_VALUE;
         int thirdLargest=Integer.MIN_VALUE;

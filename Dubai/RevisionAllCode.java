@@ -72,19 +72,55 @@ public class RevisionAllCode {
     // System.out.println("total even is "+even+" total odd is "+odd);
 
     //  reverse the array without using another aarray{1, 2, 3, 4} → {4, 3, 2, 1}
-    int []arr={1, 2, 3, 4};
-  int i=0;
-  int j=arr.length-1;
-  while (i<j) {
-    int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
-    i++;
-    j--;
-  }
-            
-        
-        System.out.println(Arrays.toString(arr));
+//     int []arr={1, 2, 3, 4};
+//   int i=0;
+//   int j=arr.length-1;
+//   while (i<j) {
+//     int temp=arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//     i++;
+//     j--;
+//   }
+//          System.out.println(Arrays.toString(arr));
+
+
+// Find the second largest number in an array.
+// 👉 Example: {5, 9, 2, 7} → Second largest = 7
+// int []arr={5, 9, 2, 7};
+// int n=arr.length;
+// int largest=Integer.MIN_VALUE;
+// int secondLargest=Integer.MIN_VALUE;
+// for(int i=0;i<n;i++){
+//     int current=arr[i];
+//     if(current>largest){
+//         secondLargest=largest;
+//         largest=current;
+//     }
+//     else if(current >secondLargest&&current!=largest){
+//         secondLargest=current;
+//     }
+// }
+// System.out.println("the largest no is "+largest);
+// System.out.println("the second largest no .is "+secondLargest);
+// int []arr={1, 2, 3, 2, 4, 1};
+// for(int i=0;i<arr.length;i++){
+//     for(int j=i+1;j<arr.length;j++){
+//         if(arr[i]==arr[j]){
+//             System.out.println("duplicate no.at index"+i+"and "+arr[i]);
+//         }
+//     }
+// }
+
+    //  arrange the accending order {3, 1, 4, 2} → {1, 2, 3, 4}
+   int[] arr= {3, 1, 4, 2};
+   for(int i=0;i<=arr.length;i++){
+    for(int j=arr.length;j)
+   }
+
+
+
+
     }
     
 }
