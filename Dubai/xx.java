@@ -134,13 +134,22 @@ public class xx {
             //     i++; 
             // }
 
+            // int n=sc.nextInt();
+            // int sum=0;
+            // while (n>=0) {
+            //     sum+=n;
+            //     n--;
+            // }
+            // System.out.println(sum);
+
             int n=sc.nextInt();
-            int sum=0;
-            while (n>=0) {
-                sum+=n;
+            int fact=1;
+            while (n>0) {
+                fact=fact*n;
                 n--;
             }
-            System.out.println(sum);
+            System.out.println(fact);
+
 
 
 
