@@ -32,6 +32,7 @@ public class xx {
          if(str1.equalsIgnoreCase(str2)){
             System.out.println("Palindrome");
         }else System.out.println("Not Palindrome");
+        System.out.println("now we will continue from this date ok bro ");
         // sc.close();
     }
     
