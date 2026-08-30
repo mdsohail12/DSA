@@ -113,13 +113,22 @@ public class xx {
             //     System.out.println("c is big");
             //  }
 
-            int persong=sc.nextInt();
+            // int persong=sc.nextInt();
              
-             if(persong>=18){
-                System.out.println("lisgible to vote");
-             }else{
-                System.out.println("not eleigible");
-             }
+            //  if(persong>=18){
+            //     System.out.println("lisgible to vote");
+            //  }else{
+            //     System.out.println("not eleigible");
+            //  }
+            int year=sc.nextInt();
+            if(year%400==0 || (year % 4 == 0 && year % 100 != 0)){
+                System.out.println(year+"year is a leap year");
+            }else{
+                System.out.println("not a leap year");
+            }
+
+
+
 
 
 
