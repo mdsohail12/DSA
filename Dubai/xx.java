@@ -149,15 +149,21 @@ public class xx {
             //     n--;
             // }
             // System.out.println(fact);
-             int n=sc.nextInt();//123=>321
-            //  for(int i =0;i<=n;i++){
+            //  int n=sc.nextInt();//123=>321
+            // while (n>0) {
+            //     int rev=n%10;
+            //     System.out.print(rev);
+            //     n=n/10;
+            // }
 
-            //  }
+            int n=sc.nextInt();
+            int digit=0;
             while (n>0) {
-                int rev=n%10;
-                System.out.print(rev);
-                n=n/10;
+                digit++;
+                n/=10;
             }
+            System.out.println(digit);
+           
 
 
 
