@@ -142,13 +142,22 @@ public class xx {
             // }
             // System.out.println(sum);
 
-            int n=sc.nextInt();
-            int fact=1;
+            // int n=sc.nextInt();
+            // int fact=1;
+            // while (n>0) {
+            //     fact=fact*n;
+            //     n--;
+            // }
+            // System.out.println(fact);
+             int n=sc.nextInt();//123=>321
+            //  for(int i =0;i<=n;i++){
+
+            //  }
             while (n>0) {
-                fact=fact*n;
-                n--;
+                int rev=n%10;
+                System.out.print(rev);
+                n=n/10;
             }
-            System.out.println(fact);
 
 
 
