@@ -1,6 +1,6 @@
 package Dubai;
 
-// import java.util.Scanner;
+import java.util.Scanner;
 
 public class xx {
     public static void main(String[] args) {
@@ -14,25 +14,45 @@ public class xx {
 
         // }
 
-        String str1="madam";
-        String str2="";
-        for(int i=str1.length()-1;i>=0;i--){
-           str2=str2+str1.charAt(i);
-            }
+        // String str1="madam";
+        // String str2="";
+        // for(int i=str1.length()-1;i>=0;i--){
+        //    str2=str2+str1.charAt(i);
+        //     }
 
             //this if block wrong answer because here is two address compare not
             //actual content ok bro thats why getting wrong answer ok bro 
-        if(str1==str2){
-            System.out.println(str1+"  is palindron");
-        }else{
-            System.out.println(str1+" is not palindrome ok");
+        // if(str1==str2){
+        //     System.out.println(str1+"  is palindron");
+        // }else{
+        //     System.out.println(str1+" is not palindrome ok");
+        // }
+
+
+        //  if(str1.equalsIgnoreCase(str2)){
+        //     System.out.println("Palindrome");
+        // }else System.out.println("Not Palindrome");
+        // System.out.println("now we will continue from this date ok bro ");
+
+
+        // how to find the evenSum and OddSum bro ok /
+        int []arr={2, 5, 7, 8};
+        int evenSum=0;
+        int oddSum=0;
+        for(int i=0;i < arr.length;i++){
+            if(arr[i]%2==0){
+                System.out.println(arr[i]+" is an even no.");
+                evenSum++;
+            }else{
+                System.out.println(arr[i]+" is odd no.");
+                oddSum++;
+            }
+
         }
+      System.out.println("Total even is " + evenSum);
+System.out.println("Total odd is " + oddSum);
+        
 
-
-         if(str1.equalsIgnoreCase(str2)){
-            System.out.println("Palindrome");
-        }else System.out.println("Not Palindrome");
-        System.out.println("now we will continue from this date ok bro ");
         // sc.close();
     }
     
