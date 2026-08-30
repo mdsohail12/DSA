@@ -67,12 +67,18 @@ public class xx {
             // System.out.println("After Swapping a="+a+" And B="+b);
 
             // find the odd or even
-            int a=sc.nextInt();
-            if(a%2==0){
-                System.out.println(a+" is even no.");
-            }else{
-                System.out.println(a+" is odd no.");
-            }
+            // int a=sc.nextInt();
+            // if(a%2==0){
+            //     System.out.println(a+" is even no.");
+            // }else{
+            //     System.out.println(a+" is odd no.");
+            // }
+             int a=sc.nextInt();
+             int b=sc.nextInt();
+
+            int rem=a%b;
+            System.out.println(rem);
+
 
 
         
