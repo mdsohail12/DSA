@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class xx {
     public static void main(String[] args) {
-        // Scanner sc=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
         // int n=sc.nextInt();
         // System.out.println("HEllo now i am again start bro ");
         
@@ -36,7 +36,13 @@ public class xx {
 
 
         // how to find the evenSum and OddSum bro ok /
-        int []arr={2, 5, 7, 8};
+        // int []arr={2, 5, 7, 8};
+        int n=sc.nextInt();
+        int []arr=new int[n];
+        for(int i=0;i<n;i++){
+              arr[i] = sc.nextInt();
+        }
+
         int evenSum=0;
         int oddSum=0;
         for(int i=0;i < arr.length;i++){
@@ -53,7 +59,7 @@ public class xx {
 System.out.println("Total odd is " + oddSum);
         
 
-        // sc.close();
+        sc.close();
     }
     
 }
