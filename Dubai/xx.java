@@ -84,14 +84,25 @@ public class xx {
             //  double si=p*r*t/100;
             //  System.out.println("simple interest is "+si);
 
+            //  int a=sc.nextInt();
+            //  if(a>0){
+            //     System.out.println("this is positive alue");
+            //  }else if(a<0){
+            //     System.out.println("neagtive no.");
+            //  }else{
+            //     System.out.println("this no. ia zero");
+            //  }
+
              int a=sc.nextInt();
-             if(a>0){
-                System.out.println("this is positive alue");
-             }else if(a<0){
-                System.out.println("neagtive no.");
-             }else{
-                System.out.println("this no. ia zero");
+             int b=sc.nextInt();
+            //  int c=sc.nextInt();
+             if(a>b){
+                System.out.println("a is big");
              }
+             else{
+                System.out.println("b is greater");
+             }
+
 
 
 
