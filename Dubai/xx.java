@@ -126,14 +126,22 @@ public class xx {
             // }else{
             //     System.out.println("not a leap year");
             // }
+            // int n=sc.nextInt();
+            // int  i=1;
+            // while(i<=n){
+            //     System.out.println(i);
+            //     // n--;
+            //     i++; 
+            // }
+
             int n=sc.nextInt();
-            int  i=1;
-            while(i<=n){
-                System.out.println(i);
-                // n--;
-                i++;
-                
+            int sum=0;
+            while (n>=0) {
+                sum+=n;
+                n--;
             }
+            System.out.println(sum);
+
 
 
 
