@@ -156,13 +156,22 @@ public class xx {
             //     n=n/10;
             // }
 
-            int n=sc.nextInt();
-            int digit=0;
-            while (n>0) {
-                digit++;
-                n/=10;
-            }
-            System.out.println(digit);
+            // int n=sc.nextInt();
+            // int digit=0;
+            // while (n>0) {
+            //     digit++;
+            //     n/=10;
+            // }
+            // System.out.println(digit);
+            int count=0;
+               int a=sc.nextInt();
+              for(int i=1;i<=a;i++){
+                if(a%i==0){
+                    count++; 
+                }
+              }
+               if(count==2) System.out.println("it is prime"); 
+        else System.out.println("not prime");
            
 
 
