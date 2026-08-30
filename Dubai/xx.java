@@ -78,11 +78,23 @@ public class xx {
 
             // int rem=a%b;
             // System.out.println(rem);
-            double p=sc.nextDouble();
-             double r=sc.nextDouble();
-             double t=sc.nextDouble();
-             double si=p*r*t/100;
-             System.out.println("simple interest is "+si);
+            // double p=sc.nextDouble();
+            //  double r=sc.nextDouble();
+            //  double t=sc.nextDouble();
+            //  double si=p*r*t/100;
+            //  System.out.println("simple interest is "+si);
+
+             int a=sc.nextInt();
+             if(a>0){
+                System.out.println("this is positive alue");
+             }else if(a<0){
+                System.out.println("neagtive no.");
+             }else{
+                System.out.println("this no. ia zero");
+             }
+
+
+
 
 
 
