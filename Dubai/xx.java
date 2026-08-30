@@ -120,11 +120,19 @@ public class xx {
             //  }else{
             //     System.out.println("not eleigible");
             //  }
-            int year=sc.nextInt();
-            if(year%400==0 || (year % 4 == 0 && year % 100 != 0)){
-                System.out.println(year+"year is a leap year");
-            }else{
-                System.out.println("not a leap year");
+            // int year=sc.nextInt();
+            // if(year%400==0 || (year % 4 == 0 && year % 100 != 0)){
+            //     System.out.println(year+"year is a leap year");
+            // }else{
+            //     System.out.println("not a leap year");
+            // }
+            int n=sc.nextInt();
+            int  i=1;
+            while(i<=n){
+                System.out.println(i);
+                // n--;
+                i++;
+                
             }
 
 
