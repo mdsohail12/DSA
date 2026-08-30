@@ -57,14 +57,23 @@ public class xx {
 //         }
 //       System.out.println("Total even is " + evenSum);
 //       System.out.println("Total odd is " + oddSum);
-             int a=sc.nextInt();
-             int b=sc.nextInt();
-             System.out.println("Before Swapping a="+a+" And b="+b);
-            //  start  the logic from here
-            a=a+b;
-            b=a-b;
-            a=a-b;
-            System.out.println("After Swapping a="+a+" And B="+b);
+            //  int a=sc.nextInt();
+            //  int b=sc.nextInt();
+            //  System.out.println("Before Swapping a="+a+" And b="+b);
+            // //  start  the logic from here
+            // a=a+b;
+            // b=a-b;
+            // a=a-b;
+            // System.out.println("After Swapping a="+a+" And B="+b);
+
+            // find the odd or even
+            int a=sc.nextInt();
+            if(a%2==0){
+                System.out.println(a+" is even no.");
+            }else{
+                System.out.println(a+" is odd no.");
+            }
+
 
         
 
