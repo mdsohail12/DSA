@@ -105,9 +105,9 @@ public class xx {
               int a=sc.nextInt();
              int b=sc.nextInt();
              int c=sc.nextInt();
-             if(a>b){
+             if(a>b&&a>c){
                 System.out.println("a big");
-             }else if(b>c){
+             }else if(b>c&&b>c){
                 System.out.println("b is big");
              }else{
                 System.out.println("c is big");
