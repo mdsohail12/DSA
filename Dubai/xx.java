@@ -37,29 +37,39 @@ public class xx {
 
         // how to find the evenSum and OddSum bro ok /
         // int []arr={2, 5, 7, 8};
-        int n=sc.nextInt();
-        int []arr=new int[n];
-        for(int i=0;i<n;i++){
-              arr[i] = sc.nextInt();
-        }
+//         int n=sc.nextInt();
+//         int []arr=new int[n];
+//         for(int i=0;i<n;i++){
+//               arr[i] = sc.nextInt();
+//         }
 
-        int evenSum=0;
-        int oddSum=0;
-        for(int i=0;i < arr.length;i++){
-            if(arr[i]%2==0){
-                System.out.println(arr[i]+" is an even no.");
-                evenSum++;
-            }else{
-                System.out.println(arr[i]+" is odd no.");
-                oddSum++;
-            }
+//         int evenSum=0;
+//         int oddSum=0;
+//         for(int i=0;i < arr.length;i++){
+//             if(arr[i]%2==0){
+//                 System.out.println(arr[i]+" is an even no.");
+//                 evenSum++;
+//             }else{
+//                 System.out.println(arr[i]+" is odd no.");
+//                 oddSum++;
+//             }
 
-        }
-      System.out.println("Total even is " + evenSum);
-System.out.println("Total odd is " + oddSum);
+//         }
+//       System.out.println("Total even is " + evenSum);
+//       System.out.println("Total odd is " + oddSum);
+             int a=sc.nextInt();
+             int b=sc.nextInt();
+             System.out.println("Before Swapping a="+a+" And b="+b);
+            //  start  the logic from here
+            a=a+b;
+            b=a-b;
+            a=a-b;
+            System.out.println("After Swapping a="+a+" And B="+b);
+
         
 
         sc.close();
+
     }
     
 }
