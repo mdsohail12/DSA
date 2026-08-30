@@ -73,11 +73,20 @@ public class xx {
             // }else{
             //     System.out.println(a+" is odd no.");
             // }
-             int a=sc.nextInt();
-             int b=sc.nextInt();
+            //  int a=sc.nextInt();
+            //  int b=sc.nextInt();
 
-            int rem=a%b;
-            System.out.println(rem);
+            // int rem=a%b;
+            // System.out.println(rem);
+            double p=sc.nextDouble();
+             double r=sc.nextDouble();
+             double t=sc.nextDouble();
+             double si=p*r*t/100;
+             System.out.println("simple interest is "+si);
+
+
+
+
 
 
 
