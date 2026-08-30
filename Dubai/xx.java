@@ -93,14 +93,24 @@ public class xx {
             //     System.out.println("this no. ia zero");
             //  }
 
-             int a=sc.nextInt();
+            //  int a=sc.nextInt();
+            //  int b=sc.nextInt();
+            // //  int c=sc.nextInt();
+            //  if(a>b){
+            //     System.out.println("a is big");
+            //  }
+            //  else{
+            //     System.out.println("b is greater");
+            //  }
+              int a=sc.nextInt();
              int b=sc.nextInt();
-            //  int c=sc.nextInt();
+             int c=sc.nextInt();
              if(a>b){
-                System.out.println("a is big");
-             }
-             else{
-                System.out.println("b is greater");
+                System.out.println("a big");
+             }else if(b>c){
+                System.out.println("b is big");
+             }else{
+                System.out.println("c is big");
              }
 
 
