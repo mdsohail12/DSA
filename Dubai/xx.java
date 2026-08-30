@@ -102,15 +102,23 @@ public class xx {
             //  else{
             //     System.out.println("b is greater");
             //  }
-              int a=sc.nextInt();
-             int b=sc.nextInt();
-             int c=sc.nextInt();
-             if(a>b&&a>c){
-                System.out.println("a big");
-             }else if(b>c&&b>c){
-                System.out.println("b is big");
+            //   int a=sc.nextInt();
+            //  int b=sc.nextInt();
+            //  int c=sc.nextInt();
+            //  if(a>b&&a>c){
+            //     System.out.println("a big");
+            //  }else if(b>a&&b>c){
+            //     System.out.println("b is big");
+            //  }else{
+            //     System.out.println("c is big");
+            //  }
+
+            int persong=sc.nextInt();
+             
+             if(persong>=18){
+                System.out.println("lisgible to vote");
              }else{
-                System.out.println("c is big");
+                System.out.println("not eleigible");
              }
 
 
