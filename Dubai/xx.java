@@ -191,14 +191,26 @@ public class xx {
 //     System.out.println(ch);
 // }
 
-        String wordCount="I love Java programming";
-        int count=1;
-        for(int i=0;i<wordCount.length();i++){
-            if(wordCount.charAt(i)==' '){
-                count++;
-            }
+        // String wordCount="I love Java programming";
+        // int count=1;
+        // for(int i=0;i<wordCount.length();i++){
+        //     if(wordCount.charAt(i)==' '){
+        //         count++;
+        //     }
+        // }
+        //     System.out.println("the total words in String is "+count);
+
+        String str1="madam";
+        String str2="";
+        for(int i=0;i<str1.length();i++){
+            str2=str1.charAt(i)+str2;
         }
-            System.out.println("the total words in String is "+count);
+        if(str1.equalsIgnoreCase(str2)){
+            System.out.println("palindrom");
+        }else{
+            System.out.println("not palindrom");
+        }
+
 
            
 
