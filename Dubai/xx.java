@@ -200,16 +200,37 @@ public class xx {
         // }
         //     System.out.println("the total words in String is "+count);
 
-        String str1="madam";
-        String str2="";
-        for(int i=0;i<str1.length();i++){
-            str2=str1.charAt(i)+str2;
+        // String str1="madam";
+        // String str2="";
+        // for(int i=0;i<str1.length();i++){
+        //     str2=str1.charAt(i)+str2;
+        // }
+        // if(str1.equalsIgnoreCase(str2)){
+        //     System.out.println("palindrom");
+        // }else{
+        //     System.out.println("not palindrom");
+        // }
+
+        // Armstrong
+
+        int n=153;
+        int original=n;
+        int sum=0;
+        while(n!=0){
+            int arm=n%10;
+            arm=arm*arm*arm;
+            sum+=arm;
+            n=n/10;
+
         }
-        if(str1.equalsIgnoreCase(str2)){
-            System.out.println("palindrom");
+        if(sum==original){
+            System.out.println("arm is "+sum);
+
         }else{
-            System.out.println("not palindrom");
+            System.out.println("not arm");
         }
+        
+
 
 
            
