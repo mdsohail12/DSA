@@ -237,18 +237,34 @@ public class xx {
         //     sum+=digit;
         //     n=n/10;
         //         }System.out.println(sum);
+//fibbonacci series ok 
+        // int n=5;
+        // int first=0;
+        // int second=1;
 
-        int n=5;
-        int first=0;
-        int second=1;
+        // for(int i=0;i<n;i++){
+        //       System.out.print(first + " ");
+        //      int next=first+second;
+        //       first=second;
+        //       second=next;
+        // }
 
-        for(int i=0;i<n;i++){
-              System.out.print(first + " ");
-             int next=first+second;
-              first=second;
-              second=next;
+        int n=75;
+        int sum=0;
+        while (n!=0) {
+            int digit=n%10;
+            sum+=digit;
+            n/=10;
+            
+        }System.out.println(sum);
 
-        }
+        // int n=1234;
+        // int sum=0;
+        // while (n!=0) {
+        //     int digit=n%10;
+        //     int last=digit;
+        //     n/=10;
+        // }
        
 
       
