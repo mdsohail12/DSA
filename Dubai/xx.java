@@ -180,22 +180,26 @@ public class xx {
 
         //  print string reverse
 // SOHAIL-->LIAHOS;
-System.out.println("enter a string");
-String str=sc.next();
-// for(int i=0;i<str.length();i++)
-for(int i=str.length()-1;i>=0;i--)
-    {
-    char ch=str.charAt(i);
-    System.out.println(ch);
-}
+// System.out.println("enter a string");
+// String str=sc.next();
+// for one by one letter print ok 
+// for(int i=0;i<str.length();i++) 
+// and reverse letter print now  we are running the loop reveerse order ok 
+// for(int i=str.length()-1;i>=0;i--)
+//     {
+//     char ch=str.charAt(i);
+//     System.out.println(ch);
+// }
 
-        // String wordCount="I love Java programming";
-        // int count=1;
-        // for(int i=0;i<wordCount.length();i++){
+        String wordCount="I love Java programming";
+        int count=1;
+        for(int i=0;i<wordCount.length();i++){
+            if(wordCount.charAt(i)==' '){
+                count++;
+            }
+        }
+            System.out.println("the total words in String is "+count);
 
-
-
-        // }
            
 
 
