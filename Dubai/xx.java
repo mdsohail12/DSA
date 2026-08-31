@@ -173,10 +173,29 @@ public class xx {
         //        if(count==2) System.out.println("it is prime"); 
         // else System.out.println("not prime");
 
-        String name="sohail";
-        for(int i=0;i<name.length();i++){
-            System.out.println(name.charAt(i));
-        }
+        // String name="sohail";
+        // for(int i=0;i<name.length();i++){
+        //     System.out.println(name.charAt(i));
+        // }
+
+        //  print string reverse
+// SOHAIL-->LIAHOS;
+System.out.println("enter a string");
+String str=sc.next();
+// for(int i=0;i<str.length();i++)
+for(int i=str.length()-1;i>=0;i--)
+    {
+    char ch=str.charAt(i);
+    System.out.println(ch);
+}
+
+        // String wordCount="I love Java programming";
+        // int count=1;
+        // for(int i=0;i<wordCount.length();i++){
+
+
+
+        // }
            
 
 
