@@ -249,22 +249,29 @@ public class xx {
         //       second=next;
         // }
 
-        int n=75;
-        int sum=0;
-        while (n!=0) {
-            int digit=n%10;
-            sum+=digit;
-            n/=10;
-            
-        }System.out.println(sum);
-
-        // int n=1234;
+        // int n=75;
         // int sum=0;
         // while (n!=0) {
         //     int digit=n%10;
-        //     int last=digit;
+        //     sum+=digit;
         //     n/=10;
-        // }
+            
+        // }System.out.println(sum);
+
+        int n = 1234;
+
+        int last = n % 10;
+
+        while (n >= 10) {
+            n = n / 10;
+        }
+
+        int first = n;
+
+        int sum = first + last;
+
+        System.out.println("Sum of first and last digit = " + sum);
+        
        
 
       
