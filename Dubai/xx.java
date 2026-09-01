@@ -319,22 +319,42 @@ public class xx {
                         // }
                         // System.out.println("the total elemnt prent are "+count);
 
-                        int []arr={10,20,30,40,7};
-                        int counteven=0;
-                        int countodd=0;
-                        for(int i=0;i<arr.length;i++){
-                            if(arr[i]%2==0){
-                                counteven++;
-                                System.out.println("only even is "+arr[i]);
+                        // int []arr={10,20,30,40,7};
+                        // int counteven=0;
+                        // int countodd=0;
+                        // for(int i=0;i<arr.length;i++){
+                        //     if(arr[i]%2==0){
+                        //         counteven++;
+                        //         System.out.println("only even is "+arr[i]);
 
-                            }
-                            else{
-                                countodd++;
-                                System.out.println("only odd"+arr[i]);
+                        //     }
+                        //     else{
+                        //         countodd++;
+                        //         System.out.println("only odd"+arr[i]);
+                        //     }
+                        // }
+                        // System.out.println("the total even no. is "+counteven);
+                        // System.out.println("the total odd no is "+countodd);
+
+
+                        int []arr={10,20,30,40,7};
+                        // //for fint smallest
+                        int min=Integer.MAX_VALUE;
+                        for(int i=0;i<arr.length;i++){
+                            if(arr[i]<min){
+                                min=arr[i];
                             }
                         }
-                        System.out.println("the total even no. is "+counteven);
-                        System.out.println("the total odd no is "+countodd);
+                        System.out.println("Smallest element present in the Array is "+min);
+
+                        //for find a largest 
+                        int max=Integer.MIN_VALUE;
+                        for(int i=0;i<arr.length;i++){
+                            if(arr[i]>max){
+                                max=arr[i];
+                            }
+                        }
+                        System.out.println("Largest element present in the Array is "+max);
 
 
                         
