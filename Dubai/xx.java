@@ -356,22 +356,42 @@ public class xx {
                         // }
                         // System.out.println("Largest element present in the Array is "+max);
 
+//                        int []arr={5, 9, 2, 7};
+//                        int n=arr.length;
+// int largest=Integer.MIN_VALUE;
+// int secondLargest=Integer.MIN_VALUE;
+// for(int i=0;i<n;i++){
+//     int current=arr[i];
+//     if(current>largest){
+//         secondLargest=largest;
+//         largest=current;
+//     }
+//     else if(current >secondLargest&&current!=largest){
+//         secondLargest=current;
+//     }
+// }
+// System.out.println("the largest no is "+largest);
+// System.out.println("the second largest no .is "+secondLargest);
                        int []arr={5, 9, 2, 7};
                        int n=arr.length;
 int largest=Integer.MIN_VALUE;
 int secondLargest=Integer.MIN_VALUE;
+int thirdLargest=Integer.MIN_VALUE;
 for(int i=0;i<n;i++){
     int current=arr[i];
     if(current>largest){
+        thirdLargest=secondLargest;
         secondLargest=largest;
         largest=current;
     }
     else if(current >secondLargest&&current!=largest){
+        thirdLargest=secondLargest;
         secondLargest=current;
     }
 }
 System.out.println("the largest no is "+largest);
 System.out.println("the second largest no .is "+secondLargest);
+System.out.println("the third largest no .is "+thirdLargest);
 
 
 
