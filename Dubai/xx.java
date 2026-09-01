@@ -297,20 +297,27 @@ public class xx {
 // }System.out.println(sum);
 
 
-System.out.println("Enter a size of array ");
-int n=sc.nextInt();
-int []arr=new int [n];
-for (int i = 0;i < n; i++ ){
-    System.out.println("Enter a number");
-    arr[i]=sc.nextInt();
-}
-System.out.println(Arrays.toString(arr));
-int sum=0;
-for(int i=0;i<arr.length;i++){
-    sum+=arr[i];
-}
-System.out.println("Total number of Sum is "+sum);
-System.out.println("Total number of Avg is "+(float)sum/n);
+// System.out.println("Enter a size of array ");
+// int n=sc.nextInt();
+// int []arr=new int [n];
+// for (int i = 0;i < n; i++ ){
+//     System.out.println("Enter a number");
+//     arr[i]=sc.nextInt();
+// }
+// System.out.println(Arrays.toString(arr));
+// int sum=0;
+// for(int i=0;i<arr.length;i++){
+//     sum+=arr[i];
+// }
+// System.out.println("Total number of Sum is "+sum);
+// System.out.println("Total number of Avg is "+(float)sum/n);
+
+                        int []arr={10,20,30,40};
+                        int count=0;
+                        for(int i=0;i<arr.length;i++){
+                            count++;
+                        }
+                        System.out.println("the total elemnt prent are "+count);
 
 
 
