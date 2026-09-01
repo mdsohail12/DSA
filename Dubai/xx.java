@@ -192,13 +192,26 @@ public class xx {
 // }
 
         // String wordCount="I love Java programming";
+        String wordCount="I   love    Java     programming";
         // int count=1;
-        // for(int i=0;i<wordCount.length();i++){
-        //     if(wordCount.charAt(i)==' '){
-        //         count++;
-        //     }
-        // }
-        //     System.out.println("the total words in String is "+count);
+        int count = 0;
+        for(int i=0;i<wordCount.length();i++){
+            //this if can handle only one space but when come 
+            //a lot of space this if cant handle bro ok so 
+            //we have tu count always wor not space ok 
+            //and when count word count always start from 0 ok 
+             if (wordCount.charAt(i) != ' ' &&
+        (i == 0 || wordCount.charAt(i - 1) == ' ')) {
+
+        count++;
+    }
+
+            // if(wordCount.charAt(i)==' ')
+            //     {
+            //     count++;
+            // }
+        }
+            System.out.println("the total words in String is "+count);
 
         // String str1="madam";
         // String str2="";
@@ -272,15 +285,18 @@ public class xx {
 
         // System.out.println("Sum of first and last digit = " + sum);
 
-int sum = 0;
+// int sum = 0;
 
-for(;; ) {
-int number=sc.nextInt();
-    sum+=number;
-    if(number==0) break;
+// for(;; ) {
+// int number=sc.nextInt();
+//     sum+=number;
+//     if(number==0) break;
 
-    // add number
-}System.out.println(sum);
+//     // add number
+// }System.out.println(sum);
+
+// int []arr=new int [n];
+// System.out.println("Enter a size of array ");
         
        
 
