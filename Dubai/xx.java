@@ -337,24 +337,42 @@ public class xx {
                         // System.out.println("the total odd no is "+countodd);
 
 
-                        int []arr={10,20,30,40,7};
-                        // //for fint smallest
-                        int min=Integer.MAX_VALUE;
-                        for(int i=0;i<arr.length;i++){
-                            if(arr[i]<min){
-                                min=arr[i];
-                            }
-                        }
-                        System.out.println("Smallest element present in the Array is "+min);
+                        // int []arr={10,20,30,40,7};
+                        // // //for fint smallest
+                        // int min=Integer.MAX_VALUE;
+                        // for(int i=0;i<arr.length;i++){
+                        //     if(arr[i]<min){
+                        //         min=arr[i];
+                        //     }
+                        // }
+                        // System.out.println("Smallest element present in the Array is "+min);
 
-                        //for find a largest 
-                        int max=Integer.MIN_VALUE;
-                        for(int i=0;i<arr.length;i++){
-                            if(arr[i]>max){
-                                max=arr[i];
-                            }
-                        }
-                        System.out.println("Largest element present in the Array is "+max);
+                        // //for find a largest 
+                        // int max=Integer.MIN_VALUE;
+                        // for(int i=0;i<arr.length;i++){
+                        //     if(arr[i]>max){
+                        //         max=arr[i];
+                        //     }
+                        // }
+                        // System.out.println("Largest element present in the Array is "+max);
+
+                       int []arr={5, 9, 2, 7};
+                       int n=arr.length;
+int largest=Integer.MIN_VALUE;
+int secondLargest=Integer.MIN_VALUE;
+for(int i=0;i<n;i++){
+    int current=arr[i];
+    if(current>largest){
+        secondLargest=largest;
+        largest=current;
+    }
+    else if(current >secondLargest&&current!=largest){
+        secondLargest=current;
+    }
+}
+System.out.println("the largest no is "+largest);
+System.out.println("the second largest no .is "+secondLargest);
+
 
 
                         
