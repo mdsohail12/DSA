@@ -312,12 +312,32 @@ public class xx {
 // System.out.println("Total number of Sum is "+sum);
 // System.out.println("Total number of Avg is "+(float)sum/n);
 
-                        int []arr={10,20,30,40};
-                        int count=0;
+                        // int []arr={10,20,30,40};
+                        // int count=0;
+                        // for(int i=0;i<arr.length;i++){
+                        //     count++;
+                        // }
+                        // System.out.println("the total elemnt prent are "+count);
+
+                        int []arr={10,20,30,40,7};
+                        int counteven=0;
+                        int countodd=0;
                         for(int i=0;i<arr.length;i++){
-                            count++;
+                            if(arr[i]%2==0){
+                                counteven++;
+                                System.out.println("only even is "+arr[i]);
+
+                            }
+                            else{
+                                countodd++;
+                                System.out.println("only odd"+arr[i]);
+                            }
                         }
-                        System.out.println("the total elemnt prent are "+count);
+                        System.out.println("the total even no. is "+counteven);
+                        System.out.println("the total odd no is "+countodd);
+
+
+                        
 
 
 
