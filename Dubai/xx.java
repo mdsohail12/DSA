@@ -1,5 +1,6 @@
 package Dubai;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class xx {
@@ -192,26 +193,26 @@ public class xx {
 // }
 
         // String wordCount="I love Java programming";
-        String wordCount="I   love    Java     programming";
-        // int count=1;
-        int count = 0;
-        for(int i=0;i<wordCount.length();i++){
+        // String wordCount="I   love    Java     programming";
+        // // int count=1;
+        // int count = 0;
+        // for(int i=0;i<wordCount.length();i++){
             //this if can handle only one space but when come 
             //a lot of space this if cant handle bro ok so 
             //we have tu count always wor not space ok 
             //and when count word count always start from 0 ok 
-             if (wordCount.charAt(i) != ' ' &&
-        (i == 0 || wordCount.charAt(i - 1) == ' ')) {
+    //          if (wordCount.charAt(i) != ' ' &&
+    //     (i == 0 || wordCount.charAt(i - 1) == ' ')) {
 
-        count++;
-    }
+    //     count++;
+    // }
 
             // if(wordCount.charAt(i)==' ')
             //     {
             //     count++;
             // }
-        }
-            System.out.println("the total words in String is "+count);
+        // }
+            // System.out.println("the total words in String is "+count);
 
         // String str1="madam";
         // String str2="";
@@ -295,8 +296,14 @@ public class xx {
 //     // add number
 // }System.out.println(sum);
 
-// int []arr=new int [n];
-// System.out.println("Enter a size of array ");
+
+System.out.println("Enter a size of array ");
+int n=sc.nextInt();
+int []arr=new int [n];
+for (int i = 0;i < n; i++ ){
+    arr[i]=sc.nextInt();
+}
+System.out.println(Arrays.toString(arr));
         
        
 
