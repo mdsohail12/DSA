@@ -258,19 +258,29 @@ public class xx {
             
         // }System.out.println(sum);
 
-        int n = 1234;
+        // int n = 1234;
 
-        int last = n % 10;
+        // int last = n % 10;//we storimg last digit 
 
-        while (n >= 10) {
-            n = n / 10;
-        }
+        // while (n >= 10) {
+        //     n = n / 10;
+        // }
 
-        int first = n;
+        // int first = n;//and here we are storing first digit ok 
 
-        int sum = first + last;
+        // int sum = first + last;
 
-        System.out.println("Sum of first and last digit = " + sum);
+        // System.out.println("Sum of first and last digit = " + sum);
+
+int sum = 0;
+
+for(;; ) {
+int number=sc.nextInt();
+    sum+=number;
+    if(number==0) break;
+
+    // add number
+}System.out.println(sum);
         
        
 
