@@ -420,19 +420,37 @@ public class xx {
 
 // }
 
- int [] arr={1, 0, 3};
-       int n=arr.length;
-       int arraySum=0;
-       int total=n*(n+1)/2;
+//  int [] arr={1, 0, 3};
+//        int n=arr.length;
+//        int arraySum=0;
+//        int total=n*(n+1)/2;
 
-       for(int x:arr){
-        arraySum+=x;
-       }
-       int missing=total-arraySum;
-       System.out.println("mising no is "+ missing);
+//        for(int x:arr){
+//         arraySum+=x;
+//        }
+//        int missing=total-arraySum;
+//        System.out.println("mising no is "+ missing);
 
 
+int []arr={50,40,30,20,10};
+for(int i =0;i<arr.length/2;i++){
+    int tempt=arr[i];
+    arr[i]=arr[arr.length-1-i];
+    arr[arr.length-1-i]=tempt;
 
+}
+System.out.println(Arrays.toString(arr));
+// int []arr={1, 2, 3, 4};
+//   int i=0;
+//   int j=arr.length-1;
+//   while (i<j) {
+//     int temp=arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//     i++;
+//     j--;
+//   }
+//          System.out.println(Arrays.toString(arr));
 
 
 
