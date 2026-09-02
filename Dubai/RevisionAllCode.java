@@ -113,9 +113,9 @@ public class RevisionAllCode {
 // }
 
     //  arrange the accending order {3, 1, 4, 2} → {1, 2, 3, 4}
-   int[] arr= {3, 1, 4, 2};
-   for(int i=0;i<=arr.length;i++){
-    for(int j=arr.length;j)
+//    int[] arr= {3, 1, 4, 2};
+//    for(int i=0;i<=arr.length;i++){
+//     for(int j=arr.length;j)
    }
 
 

@@ -372,26 +372,67 @@ public class xx {
 // }
 // System.out.println("the largest no is "+largest);
 // System.out.println("the second largest no .is "+secondLargest);
-                       int []arr={5, 9, 2, 7};
-                       int n=arr.length;
-int largest=Integer.MIN_VALUE;
-int secondLargest=Integer.MIN_VALUE;
-int thirdLargest=Integer.MIN_VALUE;
-for(int i=0;i<n;i++){
-    int current=arr[i];
-    if(current>largest){
-        thirdLargest=secondLargest;
-        secondLargest=largest;
-        largest=current;
-    }
-    else if(current >secondLargest&&current!=largest){
-        thirdLargest=secondLargest;
-        secondLargest=current;
-    }
-}
-System.out.println("the largest no is "+largest);
-System.out.println("the second largest no .is "+secondLargest);
-System.out.println("the third largest no .is "+thirdLargest);
+//                        int []arr={5, 9, 2, 7};
+//                        int n=arr.length;
+// int largest=Integer.MIN_VALUE;
+// int secondLargest=Integer.MIN_VALUE;
+// int thirdLargest=Integer.MIN_VALUE;
+// for(int i=0;i<n;i++){
+//     int current=arr[i];
+//     if(current>largest){
+//         thirdLargest=secondLargest;
+//         secondLargest=largest;
+//         largest=current;
+//     }
+//     else if(current >secondLargest&&current!=largest){
+//         thirdLargest=secondLargest;
+//         secondLargest=current;
+//     }
+// }
+// System.out.println("the largest no is "+largest);
+// System.out.println("the second largest no .is "+secondLargest);
+// System.out.println("the third largest no .is "+thirdLargest);
+
+// int []arr={1, 2, 3, 2, 4, 1};
+// for(int i=0;i<arr.length;i++){
+//     for(int j=i+1;j<arr.length;j++){
+//         if(arr[i]==arr[j]){
+//             System.out.println("duplicate no.at index"+i+"and "+arr[i]);
+//         }
+//     }
+// }
+// int []arr={1, 2, 3, 2, 4, 1};
+// boolean isDuplicate = false;
+// for(int i=0;i<arr.length;i++){
+//      isDuplicate = false;
+//     for(int j=i+1;j<arr.length;j++){
+//         if(arr[i]==arr[j]){ 
+//             isDuplicate = true;
+//             break;
+//         }
+//     }
+// }
+// if(isDuplicate==true){
+// System.out.println(Arrays.toString(arr));
+// }
+// else{
+//    System.out.println("else chal rha h"+Arrays.toString(arr));
+
+// }
+
+ int [] arr={1, 0, 3};
+       int n=arr.length;
+       int arraySum=0;
+       int total=n*(n+1)/2;
+
+       for(int x:arr){
+        arraySum+=x;
+       }
+       int missing=total-arraySum;
+       System.out.println("mising no is "+ missing);
+
+
+
 
 
 
