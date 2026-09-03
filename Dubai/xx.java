@@ -432,14 +432,32 @@ public class xx {
 //        System.out.println("mising no is "+ missing);
 
 
-int []arr={50,40,30,20,10};
-for(int i =0;i<arr.length/2;i++){
-    int tempt=arr[i];
-    arr[i]=arr[arr.length-1-i];
-    arr[arr.length-1-i]=tempt;
+// int []arr={50,40,30,20,10};
+// for(int i =0;i<arr.length/2;i++){
+//     int tempt=arr[i];
+//     arr[i]=arr[arr.length-1-i];
+//     arr[arr.length-1-i]=tempt;
 
+// }
+// System.out.println(Arrays.toString(arr));
+
+int[] arr = {10, 20, 30, 40, 50};
+
+boolean sorted = true;
+
+for(int i = 0; i < arr.length - 1; i++) {
+
+    if(arr[i] > arr[i + 1]) {
+        sorted = false;
+        break;
+    }
 }
-System.out.println(Arrays.toString(arr));
+
+if(sorted) {
+    System.out.println("Array is sorted");
+} else {
+    System.out.println("Array is not sorted");
+}
 // int []arr={1, 2, 3, 4};
 //   int i=0;
 //   int j=arr.length-1;
