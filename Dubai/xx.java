@@ -441,34 +441,34 @@ public class xx {
 // }
 // System.out.println(Arrays.toString(arr));
 
-int[] arr = {10, 20, 30, 40, 50};
+// int[] arr = {10, 20, 30, 40, 50};
 
-boolean sorted = true;
+// boolean sorted = true;
 
-for(int i = 0; i < arr.length - 1; i++) {
+// for(int i = 0; i < arr.length - 1; i++) {
 
-    if(arr[i] > arr[i + 1]) {
-        sorted = false;
-        break;
-    }
-}
+//     if(arr[i] > arr[i + 1]) {
+//         sorted = false;
+//         break;
+//     }
+// }
 
-if(sorted) {
-    System.out.println("Array is sorted");
-} else {
-    System.out.println("Array is not sorted");
-}
-// int []arr={1, 2, 3, 4};
-//   int i=0;
-//   int j=arr.length-1;
-//   while (i<j) {
-//     int temp=arr[i];
-//             arr[i]=arr[j];
-//             arr[j]=temp;
-//     i++;
-//     j--;
-//   }
-//          System.out.println(Arrays.toString(arr));
+// if(sorted) {
+//     System.out.println("Array is sorted");
+// } else {
+//     System.out.println("Array is not sorted");
+// }
+int []arr={1, 2, 3, 4};
+  int i=0;
+  int j=arr.length-1;
+  while (i<j) {
+    int temp=arr[i];
+            arr[i]=arr[j];
+            arr[j]=temp;
+    i++;
+    j--;
+  }
+         System.out.println(Arrays.toString(arr));
 
 
 
