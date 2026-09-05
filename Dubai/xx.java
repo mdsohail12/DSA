@@ -458,17 +458,25 @@ public class xx {
 // } else {
 //     System.out.println("Array is not sorted");
 // }
-int []arr={1, 2, 3, 4};
-  int i=0;
-  int j=arr.length-1;
-  while (i<j) {
-    int temp=arr[i];
-            arr[i]=arr[j];
-            arr[j]=temp;
+// int []arr={1, 2, 3, 4};
+//   int i=0;
+//   int j=arr.length-1;
+//   while (i<j) {
+//     int temp=arr[i];
+//             arr[i]=arr[j];
+//             arr[j]=temp;
+//     i++;
+//     j--;
+//   }
+//          System.out.println(Arrays.toString(arr));
+
+ int i=0;
+ int n=10;
+ while (i<=n) {
+    System.out.println("i love you java");
     i++;
-    j--;
-  }
-         System.out.println(Arrays.toString(arr));
+ }
+
 
 
 
