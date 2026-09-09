@@ -470,12 +470,14 @@ public class xx {
 //   }
 //          System.out.println(Arrays.toString(arr));
 
- int i=0;
- int n=10;
- while (i<=n) {
-    System.out.println("i love you java");
-    i++;
- }
+//  int i=0;
+//  int n=10;
+//  while (i<=n) {
+//     System.out.println("i love you java");
+//     i++;
+//  }
+
+System.out.println("now able to start will continue");
 
 
 
