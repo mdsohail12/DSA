@@ -477,15 +477,26 @@ public class xx {
 //     i++;
 //  }
 
-int []arr={1,0,3};
+// int []arr={1,0,3};
+// int n=arr.length;
+// int sum=0;
+// int total=n*(n+1)/2;
+// for(int x:arr){
+//     sum+=x;
+// }
+// int missing=total-sum;
+// System.out.println("the mising no. is "+missing);
+
+int []arr={0,1,0,3,12};
 int n=arr.length;
-int sum=0;
-int total=n*(n+1)/2;
-for(int x:arr){
-    sum+=x;
+for(int i=0;i<n;i++){
+    if(arr[i]==0){
+        continue;
+    }
+    arr[i]=arr[i++];
 }
-int missing=total-sum;
-System.out.println("the mising no. is "+missing);
+System.out.println(Arrays.toString(arr));
+
 
 
 
