@@ -477,7 +477,15 @@ public class xx {
 //     i++;
 //  }
 
-System.out.println("now able to start will continue");
+int []arr={1,0,3};
+int n=arr.length;
+int sum=0;
+int total=n*(n+1)/2;
+for(int x:arr){
+    sum+=x;
+}
+int missing=total-sum;
+System.out.println("the mising no. is "+missing);
 
 
 
