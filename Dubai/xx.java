@@ -497,6 +497,8 @@ for(int i=0;i<n;i++){
 }
 System.out.println(Arrays.toString(arr));
 
+System.out.println("this question is wrong but i have to pucsh for reful;ation ok bro");
+
 
 
 
