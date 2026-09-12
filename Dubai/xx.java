@@ -487,17 +487,47 @@ public class xx {
 // int missing=total-sum;
 // System.out.println("the mising no. is "+missing);
 
+
+// moved all zero to end ok 
+// int []arr={0,1,0,3,12};
+// int index=0;
+// int n=arr.length;
+// System.out.println(n);
+// for(int i=0;i<n;i++){
+//     if(arr[i]==0){
+//         continue;
+//     }else{
+//          arr[index]=arr[i];
+//          index++;
+
+//     }
+// }
+//   while (index < arr.length) {
+//             arr[index] = 0;
+//             index++;
+//         }
+// System.out.println(Arrays.toString(arr));
+
+// System.out.println("Now bro all clear code ok with logical");
+
+// moved all zero to begginging ok 
 int []arr={0,1,0,3,12};
+int index=0;
 int n=arr.length;
-for(int i=0;i<n;i++){
-    if(arr[i]==0){
-        continue;
-    }
-    arr[i]=arr[i++];
+System.out.println(n);//5
+for(int i =0;i<n;i++){
+   if (arr[i] == 0) {
+
+                int temp = arr[index];
+                arr[index] = arr[i];
+                arr[i] = temp;
+
+                index++;
+            }
+
 }
 System.out.println(Arrays.toString(arr));
 
-System.out.println("this question is wrong but i have to pucsh for reful;ation ok bro");
 
 
 
