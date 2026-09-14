@@ -532,11 +532,13 @@ public class xx {
 
 System.out.println("NOw i am going to do coding bro ok");
 
-int []arr={10, 20, 30, 40, 50, 60, 70};
-int target=60;
+// int []arr={10, 20, 30, 40, 50, 60, 70};
+int []arr={5, 12, 18, 25, 31, 44, 57, 63, 79};
+int target=44;
+// int target=60;
 int left=0;
 int right=arr.length-1;
-while (left<right) {
+while (left<=right) {
     int mid=(left+right)/2;
    if(arr[mid] == target){
     System.out.println(arr[mid] + " found at index " + mid);
