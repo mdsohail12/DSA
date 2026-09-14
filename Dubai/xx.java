@@ -489,26 +489,26 @@ public class xx {
 
 
 // moved all zero to end ok 
-int []arr={0,1,0,3,12};
-int index=0;
-int n=arr.length;
-System.out.println(n);
-for(int i=0;i<n;i++){
-    if(arr[i]==0){
-        continue;
-    }else{
-         arr[index]=arr[i];
-         index++;
+// int []arr={0,1,0,3,12};
+// int index=0;
+// int n=arr.length;
+// System.out.println(n);
+// for(int i=0;i<n;i++){
+//     if(arr[i]==0){
+//         continue;
+//     }else{
+//          arr[index]=arr[i];
+//          index++;
 
-    }
-}
-  while (index < arr.length) {
-            arr[index] = 0;
-            index++;
-        }
-System.out.println(Arrays.toString(arr));
+//     }
+// }
+//   while (index < arr.length) {
+//             arr[index] = 0;
+//             index++;
+//         }
+// System.out.println(Arrays.toString(arr));
 
-System.out.println("Now bro all clear code ok with logical");
+// System.out.println("Now bro all clear code ok with logical");
 
 // moved all zero to begginging ok 
 // int []arr={0,1,0,3,12};
@@ -528,6 +528,9 @@ System.out.println("Now bro all clear code ok with logical");
 // }
 // System.out.println(Arrays.toString(arr));
 
+
+
+System.out.println("NOw i am going to do coding bro ok");
 
 
 
