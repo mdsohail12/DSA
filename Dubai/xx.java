@@ -556,9 +556,15 @@ System.out.println("NOw i am going to do coding bro ok");
 
 int i=0;
 while (i<=10) {
-    System.out.println("sohail");
+    System.out.println("Allah hu akbar");
+    System.out.println("change my mind");
     i++;
 }
+// int i=0;
+// while (i<=10) {
+//     System.out.println("sohail");
+//     i++;
+// }
 
                         
 
