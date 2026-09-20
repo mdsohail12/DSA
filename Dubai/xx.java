@@ -530,7 +530,7 @@ public class xx {
 
 
 
-System.out.println("NOw i am going to do coding bro ok");
+// System.out.println("NOw i am going to do coding bro ok");
 
 // int []arr={10, 20, 30, 40, 50, 60, 70};
 // int []arr={5, 12, 18, 25, 31, 44, 57, 63, 79};
@@ -566,7 +566,23 @@ System.out.println("NOw i am going to do coding bro ok");
 //     i++;
 // }
 
-System.out.println("we have started to codeing now again ok ");
+// System.out.println("we have started to codeing now again ok ");
+                      int []arr={0,1,0,3,12};
+                      int index=0;
+                      int n=arr.length;
+                      for(int i=0;i<n;i++){
+                        if(arr[i]==0){
+                            continue;
+                        }else{
+                            arr[index]=arr[i];
+                            index++;
+                        }
+                      }
+                      while (index<n) {
+                        arr[index]=0;
+                        index++;
+                      }
+                      System.out.println(Arrays.toString(arr));
                         
 
 
