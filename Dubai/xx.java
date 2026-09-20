@@ -567,22 +567,40 @@ public class xx {
 // }
 
 // System.out.println("we have started to codeing now again ok ");
+                    //   int []arr={0,1,0,3,12};
+                    //   int index=0;
+                    //   int n=arr.length;
+                    //   for(int i=0;i<n;i++){
+                    //     if(arr[i]==0){
+                    //         continue;
+                    //     }else{
+                    //         arr[index]=arr[i];
+                    //         index++;
+                    //     }
+                    //   }
+                    //   while (index<n) {
+                    //     arr[index]=0;
+                    //     index++;
+                    //   }
+                    //   System.out.println(Arrays.toString(arr));
+                    //   System.out.println("start all 0 moved first");
+
                       int []arr={0,1,0,3,12};
+                      int n1=arr.length;
                       int index=0;
-                      int n=arr.length;
-                      for(int i=0;i<n;i++){
+                      for(int i=0;i<n1;i++){
                         if(arr[i]==0){
-                            continue;
-                        }else{
+                            // swap the no.
+                            int tempt=arr[index];
                             arr[index]=arr[i];
+                            arr[i]=tempt;
                             index++;
                         }
+                        System.out.println(Arrays.toString(arr));
                       }
-                      while (index<n) {
-                        arr[index]=0;
-                        index++;
-                      }
-                      System.out.println(Arrays.toString(arr));
+
+
+
                         
 
 
