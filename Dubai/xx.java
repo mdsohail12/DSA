@@ -1,5 +1,6 @@
 package Dubai;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -585,19 +586,39 @@ public class xx {
                     //   System.out.println(Arrays.toString(arr));
                     //   System.out.println("start all 0 moved first");
 
-                      int []arr={0,1,0,3,12};
-                      int n1=arr.length;
-                      int index=0;
-                      for(int i=0;i<n1;i++){
-                        if(arr[i]==0){
-                            // swap the no.
-                            int tempt=arr[index];
-                            arr[index]=arr[i];
-                            arr[i]=tempt;
-                            index++;
-                        }
-                        System.out.println(Arrays.toString(arr));
-                      }
+                    //   int []arr={0,1,0,3,12};
+                    //   int n1=arr.length;
+                    //   int index=0;
+                    //   for(int i=0;i<n1;i++){
+                    //     if(arr[i]==0){
+                    //         // swap the no.
+                    //         int tempt=arr[index];
+                    //         arr[index]=arr[i];
+                    //         arr[i]=tempt;
+                    //         index++;
+                    //     }
+                    //     System.out.println(Arrays.toString(arr));
+                    //   }
+                //     int []arr={10,20,30,40,50};
+                //     int n=arr.length;
+                //     int original=arr[0];
+                //     for(int i=1;i<n;i++){
+                //         arr[i-1]=arr[i];
+                //     }
+                //    arr[n-1]=original;
+                //     System.out.println(Arrays.toString(arr));
+
+                    int []arr={10,20,30,40,50};
+                    int n=arr.length;
+                    int original=arr[n-1];
+                    for(int i=arr.length-1;i>0;i--){
+                        arr[i]=arr[i-1];
+                    }
+                    arr[0]=original;
+                    System.out.println(Arrays.toString(arr));
+                    
+
+
 
 
 
