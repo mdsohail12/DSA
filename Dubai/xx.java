@@ -607,6 +607,7 @@ public class xx {
                     }
                    arr[n-1]=original;
                     System.out.println(Arrays.toString(arr));
+                    System.out.println("i have change my mind");
 
                     // int []arr={10,20,30,40,50};
                     // int n=arr.length;
