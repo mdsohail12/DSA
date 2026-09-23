@@ -599,15 +599,15 @@ public class xx {
                     //     }
                     //     System.out.println(Arrays.toString(arr));
                     //   }
-                    int []arr={10,20,30,40,50};
-                    int n=arr.length;
-                    int original=arr[0];
-                    for(int i=1;i<n;i++){
-                        arr[i-1]=arr[i];
-                    }
-                   arr[n-1]=original;
-                    System.out.println(Arrays.toString(arr));
-                    System.out.println("i have change my mind");
+                //     int []arr={10,20,30,40,50};
+                //     int n=arr.length;
+                //     int original=arr[0];
+                //     for(int i=1;i<n;i++){
+                //         arr[i-1]=arr[i];
+                //     }
+                //    arr[n-1]=original;
+                //     System.out.println(Arrays.toString(arr));
+                //     System.out.println("i have change my mind");
 
                     // int []arr={10,20,30,40,50};
                     // int n=arr.length;
@@ -617,6 +617,11 @@ public class xx {
                     // }
                     // arr[0]=original;
                     // System.out.println(Arrays.toString(arr));
+                    int i=0;
+                    while(i<=10){
+                        System.out.println("changed");
+                        i++;
+                    }
                     
 
 
