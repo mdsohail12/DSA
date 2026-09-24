@@ -617,11 +617,21 @@ public class xx {
                     // }
                     // arr[0]=original;
                     // System.out.println(Arrays.toString(arr));
-                    int i=0;
-                    while(i<=10){
-                        System.out.println("changed");
-                        i++;
+                    // int i=0;
+                    // while(i<=10){
+                    //     System.out.println("changed");
+                    //     i++;
+                    // }
+
+                    int num=75;
+                    int sum=0;
+                    while(num!=0){
+                        int rem=num%10;
+                        sum=sum+rem;
+                        num=num/10;
                     }
+                    System.out.println(sum);
+
                     
 
 
