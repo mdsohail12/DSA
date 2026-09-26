@@ -623,14 +623,21 @@ public class xx {
                     //     i++;
                     // }
 
-                    int num=75;
-                    int sum=0;
-                    while(num!=0){
-                        int rem=num%10;
-                        sum=sum+rem;
-                        num=num/10;
+                    // int num=75;
+                    // int sum=0;
+                    // while(num!=0){
+                    //     int rem=num%10;
+                    //     sum=sum+rem;
+                    //     num=num/10;
+                    // }
+                    // System.out.println(sum);
+
+                    for(int i=0;i<4;i++){
+                        for(int j=0;j<=i;j++){
+                            System.out.print("*");
+                        }
+                    System.out.println(" ");
                     }
-                    System.out.println(sum);
 
                     
 
